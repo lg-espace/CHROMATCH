@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Image du produit à venir">
+  <!-- Placeholder Chromatch : silhouette rouge (#FF3030) dont la couleur est modifiée en CSS selon la pastille choisie -->
+  <g transform="translate(150 120) scale(1.25)">
+    <path d="M130 40 L60 80 L20 150 L70 175 L95 140 L95 360 L305 360 L305 140 L330 175 L380 150 L340 80 L270 40 C255 70 145 70 130 40 Z" fill="#FF3030"/>
+    <path d="M130 40 C145 70 255 70 270 40" fill="none" stroke="rgba(0,0,0,.12)" stroke-width="6"/>
+  </g>
+  <text x="400" y="720" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-size="34" font-weight="700" fill="#8a8a84">Image à venir</text>
+</svg>
