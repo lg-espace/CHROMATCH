@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Créer un compte (fictif) | Chromatch</title>
+  <meta name="description" content="Création de compte fictive Chromatch : formulaire de démonstration, aucune donnée enregistrée.">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:title" content="Créer un compte (fictif) | Chromatch">
+  <meta property="og:description" content="Création de compte fictive Chromatch : formulaire de démonstration, aucune donnée enregistrée.">
+  <link rel="icon" type="image/png" href="../images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body data-root="../" data-page="compte">
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <div id="site-header"></div>
+  <noscript><p class="demo-banner center">Ce site de démonstration nécessite JavaScript (en-tête, panier, catalogue).</p></noscript>
+  <main id="contenu" tabindex="-1">
+
+    <div class="container section-sm auth-wrap">
+      <div class="center"><img class="auth-logo" src="../images/logo1-trim.png" alt="Chromatch" width="130" height="130"></div>
+      <h1 class="center">Créer mon compte</h1>
+      <p class="demo-banner center">Site de démonstration – aucune donnée n’est enregistrée ni envoyée.</p>
+      <div id="signup-msg" class="form-banner" role="status"></div>
+      <form id="signup-form" class="form-card" novalidate>
+        <div class="form-grid">
+          <fieldset class="field full" id="civ-group"><legend>Civilité</legend>
+            <div class="radio-inline"><label><input type="radio" name="civilite" value="Mme"> Madame</label><label><input type="radio" name="civilite" value="M"> Monsieur</label><label><input type="radio" name="civilite" value="Autre"> Autre / ne souhaite pas répondre</label></div></fieldset>
+          <div class="field"><label for="s-first">Prénom</label><input id="s-first" name="prenom" autocomplete="off"></div>
+          <div class="field"><label for="s-last">Nom</label><input id="s-last" name="nom" autocomplete="off"></div>
+          <div class="field full"><label for="s-email">Adresse e-mail</label><input id="s-email" type="email" autocomplete="off"></div>
+          <div class="field"><label for="s-password">Mot de passe</label><div class="pw-wrap"><input id="s-password" type="password" autocomplete="new-password"><button type="button" class="link-btn" data-toggle-pw="s-password" aria-pressed="false">Afficher</button></div>
+            <div class="pw-meter" aria-hidden="true"><span id="pw-bar" data-score="0"></span></div><small id="pw-label" aria-live="polite"></small></div>
+          <div class="field"><label for="s-password2">Confirmer le mot de passe</label><div class="pw-wrap"><input id="s-password2" type="password" autocomplete="new-password"><button type="button" class="link-btn" data-toggle-pw="s-password2" aria-pressed="false">Afficher</button></div></div>
+          <div class="field"><label for="s-phone">Téléphone</label><input id="s-phone" type="tel" placeholder="06 12 34 56 78" autocomplete="off"></div>
+          <div class="field"><label for="s-birth">Date de naissance</label><input id="s-birth" type="date"></div>
+          <div class="field full"><label for="s-street">Adresse (numéro et rue)</label><input id="s-street" autocomplete="off"></div>
+          <div class="field"><label for="s-zip">Code postal</label><input id="s-zip" inputmode="numeric" maxlength="5" autocomplete="off"></div>
+          <div class="field"><label for="s-city">Ville</label><input id="s-city" autocomplete="off"></div>
+          <div class="field full"><label for="s-country">Pays</label><select id="s-country"><option value="">Choisir…</option><option>France</option><option>Belgique</option><option>Suisse</option><option>Luxembourg</option><option>Canada</option><option>Autre</option></select></div>
+          <div class="field full"><label class="checkline"><input type="checkbox" id="s-news"> <span>Je souhaite recevoir les nouveautés et offres Chromatch (fictif).</span></label></div>
+          <div class="field full"><label class="checkline"><input type="checkbox" id="s-terms"> <span>J’ai lu et j’accepte les <a href="cgv.html">conditions générales (fictives)</a> et la <a href="confidentialite.html">politique de confidentialité</a>.</span></label></div>
+        </div>
+        <div class="step-actions"><button class="btn btn-lg" type="submit">Créer mon compte</button><a class="btn btn-ghost" href="connexion.html">J’ai déjà un compte</a></div>
+      </form>
+    </div>
+  </main>
+  <div id="site-footer"></div>
+  <script src="../js/products.js" defer></script>
+  <script src="../js/stores.js" defer></script>
+  <script src="../js/cart.js" defer></script>
+  <script src="../js/components.js" defer></script>
+  <script src="../js/main.js" defer></script>
+  <script src="../js/forms.js" defer></script>
+</body>
+</html>

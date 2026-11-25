@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Boutique | Chromatch</title>
+  <meta name="description" content="Tous les vêtements Chromatch : T-shirts, pantalons, chaussures, chemises, costumes, vestes, cravates et ceintures qui changent de couleur. Filtres par gamme, rayon et prix.">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:title" content="Boutique | Chromatch">
+  <meta property="og:description" content="Tous les vêtements Chromatch : T-shirts, pantalons, chaussures, chemises, costumes, vestes, cravates et ceintures qui changent de couleur. Filtres par gamme, rayon et prix.">
+  <link rel="icon" type="image/png" href="../images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body data-root="../" data-page="boutique">
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <div id="site-header"></div>
+  <noscript><p class="demo-banner center">Ce site de démonstration nécessite JavaScript (en-tête, panier, catalogue).</p></noscript>
+  <main id="contenu" tabindex="-1">
+
+    <section class="page-head banner">
+      <div class="container">
+        <p class="eyebrow">Boutique</p>
+        <h1>Tous nos vêtements qui changent de couleur</h1>
+        <p class="lead">Filtrez par catégorie, gamme, rayon ou prix. Chaque produit existe en plusieurs couleurs.</p>
+      </div>
+    </section>
+    <div class="container shop-layout">
+      <form id="filters" class="filters" aria-label="Filtres de la boutique">
+        <div class="field search-field" style="margin-bottom:1.2rem"><label for="f-q">Recherche</label><input id="f-q" type="search" placeholder="Rechercher…" autocomplete="off"></div>
+        <fieldset><legend>Catégorie</legend><div id="f-categories"></div></fieldset>
+        <fieldset><legend>Gamme</legend><div id="f-lines"></div></fieldset>
+        <fieldset><legend>Rayon</legend><div id="f-rayons"></div></fieldset>
+        <fieldset><legend>Prix maximum</legend><input type="range" id="f-max" min="20" max="250" step="5" aria-describedby="f-max-out"><output id="f-max-out" for="f-max"></output></fieldset>
+        <button type="button" class="btn btn-outline btn-block" id="f-reset">Réinitialiser les filtres</button>
+      </form>
+      <div>
+        <div class="shop-bar">
+          <button type="button" class="btn btn-outline btn-small filters-toggle" id="filters-toggle" aria-expanded="false" aria-controls="filters">Filtres</button>
+          <p id="shop-count" aria-live="polite" style="margin:0;font-weight:700"></p>
+          <label>Trier par&nbsp;
+            <select id="f-sort">
+              <option value="pertinence">Pertinence</option>
+              <option value="prix-asc">Prix croissant</option>
+              <option value="prix-desc">Prix décroissant</option>
+              <option value="note">Mieux notés</option>
+              <option value="nouveautes">Nouveautés</option>
+              <option value="nom">Nom (A-Z)</option>
+            </select>
+          </label>
+        </div>
+        <div id="shop-grid" class="grid grid-3 pgrid"></div>
+        <div id="shop-empty" class="empty-state" hidden><h2>Aucun produit trouvé</h2><p>Essayez d’élargir vos filtres.</p><button type="button" class="btn" id="shop-empty-reset">Réinitialiser les filtres</button></div>
+      </div>
+    </div>
+  </main>
+  <div id="site-footer"></div>
+  <script src="../js/products.js" defer></script>
+  <script src="../js/stores.js" defer></script>
+  <script src="../js/cart.js" defer></script>
+  <script src="../js/components.js" defer></script>
+  <script src="../js/main.js" defer></script>
+  <script src="../js/shop.js" defer></script>
+</body>
+</html>

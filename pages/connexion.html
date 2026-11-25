@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Connexion (fictive) | Chromatch</title>
+  <meta name="description" content="Connexion fictive à Chromatch : toute tentative affiche une erreur, site de démonstration.">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:title" content="Connexion (fictive) | Chromatch">
+  <meta property="og:description" content="Connexion fictive à Chromatch : toute tentative affiche une erreur, site de démonstration.">
+  <link rel="icon" type="image/png" href="../images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body data-root="../" data-page="compte">
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <div id="site-header"></div>
+  <noscript><p class="demo-banner center">Ce site de démonstration nécessite JavaScript (en-tête, panier, catalogue).</p></noscript>
+  <main id="contenu" tabindex="-1">
+
+    <div class="container section-sm auth-wrap narrow">
+      <div class="center"><img class="auth-logo" src="../images/logo1-trim.png" alt="Chromatch" width="130" height="130"></div>
+      <h1 class="center">Connexion</h1>
+      <p class="demo-banner center">Site de démonstration – aucune donnée n’est enregistrée ni envoyée.</p>
+      <div id="login-msg" class="form-banner" role="alert"></div>
+      <form id="login-form" class="form-card" novalidate>
+        <div class="field"><label for="l-id">Identifiant ou e-mail</label><input id="l-id" autocomplete="off"></div>
+        <div class="field" style="margin-top:1rem"><label for="l-password">Mot de passe</label><div class="pw-wrap"><input id="l-password" type="password" autocomplete="off"><button type="button" class="link-btn" data-toggle-pw="l-password" aria-pressed="false">Afficher</button></div></div>
+        <p style="margin:.8rem 0"><a href="#" id="forgot-link">Mot de passe oublié ?</a></p>
+        <button class="btn btn-lg btn-block" type="submit">Se connecter</button>
+        <p class="center" style="margin:1.2rem 0 0">Pas encore de compte ? <a href="compte.html">Créer un compte (fictif)</a></p>
+      </form>
+    </div>
+  </main>
+  <div id="site-footer"></div>
+  <script src="../js/products.js" defer></script>
+  <script src="../js/stores.js" defer></script>
+  <script src="../js/cart.js" defer></script>
+  <script src="../js/components.js" defer></script>
+  <script src="../js/main.js" defer></script>
+  <script src="../js/forms.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Commande (paiement fictif) | Chromatch</title>
+  <meta name="description" content="Tunnel de commande fictif Chromatch : adresse, livraison, paiement. Aucune donnée enregistrée.">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:title" content="Commande (paiement fictif) | Chromatch">
+  <meta property="og:description" content="Tunnel de commande fictif Chromatch : adresse, livraison, paiement. Aucune donnée enregistrée.">
+  <link rel="icon" type="image/png" href="../images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body data-root="../" data-page="commande">
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <div id="site-header"></div>
+  <noscript><p class="demo-banner center">Ce site de démonstration nécessite JavaScript (en-tête, panier, catalogue).</p></noscript>
+  <main id="contenu" tabindex="-1">
+
+    <div class="container section-sm" id="checkout-root">
+      <div id="checkout-app" hidden>
+        <h1>Finaliser ma commande</h1>
+        <p class="demo-pay">Paiement fictif – démonstration : aucune donnée n’est enregistrée ni envoyée, aucune somme n’est débitée.</p>
+        <ol class="stepper" aria-label="Étapes de la commande">
+          <li id="stepper-1">Livraison</li><li id="stepper-2">Mode d’expédition</li><li id="stepper-3">Paiement</li>
+        </ol>
+        <div class="checkout-layout">
+          <div>
+            <section id="step-1" aria-labelledby="s1-t">
+              <h2 id="s1-t">1. Adresse de livraison</h2>
+              <form id="address-form" class="form-card" novalidate>
+                <div class="form-grid">
+                  <div class="field"><label for="a-first">Prénom</label><input id="a-first" autocomplete="given-name"></div>
+                  <div class="field"><label for="a-last">Nom</label><input id="a-last" autocomplete="family-name"></div>
+                  <div class="field"><label for="a-email">E-mail</label><input id="a-email" type="email" autocomplete="email"></div>
+                  <div class="field"><label for="a-phone">Téléphone</label><input id="a-phone" type="tel" autocomplete="tel" placeholder="06 12 34 56 78"></div>
+                  <div class="field full"><label for="a-street">Adresse</label><input id="a-street" autocomplete="street-address"></div>
+                  <div class="field"><label for="a-zip">Code postal</label><input id="a-zip" inputmode="numeric" maxlength="5" autocomplete="postal-code"></div>
+                  <div class="field"><label for="a-city">Ville</label><input id="a-city" autocomplete="address-level2"></div>
+                  <div class="field full"><label for="a-country">Pays</label><select id="a-country"><option>France métropolitaine</option></select></div>
+                </div>
+                <p class="hint">Ces informations ne sont ni enregistrées ni envoyées.</p>
+                <div class="step-actions"><button class="btn btn-lg" type="submit">Continuer vers la livraison</button><a class="btn btn-ghost" href="panier.html">Retour au panier</a></div>
+              </form>
+            </section>
+
+            <section id="step-2" aria-labelledby="s2-t" hidden>
+              <h2 id="s2-t">2. Mode de livraison</h2>
+              <form id="delivery-form" class="form-card">
+                <label class="radio-card"><input type="radio" name="delivery" value="standard" checked><span class="grow"><strong>Livraison standard</strong>3 à 5 jours ouvrés — offerte dès 100 €</span><strong id="dm-price-standard"></strong></label>
+                <label class="radio-card"><input type="radio" name="delivery" value="express"><span class="grow"><strong>Livraison express</strong>24 à 48 h</span><strong id="dm-price-express"></strong></label>
+                <label class="radio-card"><input type="radio" name="delivery" value="pickup"><span class="grow"><strong>Retrait en boutique Chromatch</strong>Dans l’une de nos boutiques fictives</span><strong id="dm-price-pickup"></strong></label>
+                <div class="step-actions"><button class="btn btn-lg" type="submit">Continuer vers le paiement</button><button class="btn btn-ghost" type="button" data-back="1">Retour</button></div>
+              </form>
+            </section>
+
+            <section id="step-3" aria-labelledby="s3-t" hidden>
+              <h2 id="s3-t">3. Paiement</h2>
+              <div class="form-card">
+                <p class="demo-pay">Paiement fictif – démonstration. Utilisez le bouton « Remplir avec une carte de test » ou saisissez un numéro respectant l’algorithme de Luhn. Rien n’est conservé, même localement.</p>
+                <fieldset class="pay-tabs" style="border:0;padding:0;margin:0 0 1.2rem">
+                  <legend class="sr-only">Mode de paiement</legend>
+                  <label class="radio-card" style="margin:0"><input type="radio" name="pay" value="card" checked><span class="grow"><strong>Carte bancaire</strong>Visa, Mastercard, Amex</span></label>
+                  <label class="radio-card" style="margin:0"><input type="radio" name="pay" value="apple"><span class="grow"><strong>Apple Pay</strong>Bouton factice</span></label>
+                </fieldset>
+
+                <div id="pay-card">
+                  <div class="card-visual" aria-hidden="true"><span class="type" id="c-type"></span>CARTE BANCAIRE<br><small>Démonstration</small></div>
+                  <form id="card-form" novalidate autocomplete="off">
+                    <div class="form-grid">
+                      <div class="field full"><label for="c-number">Numéro de carte</label><input id="c-number" inputmode="numeric" autocomplete="off" placeholder="1234 5678 9012 3456" maxlength="23"></div>
+                      <div class="field full"><label for="c-name">Nom du titulaire</label><input id="c-name" autocomplete="off"></div>
+                      <div class="field"><label for="c-exp">Expiration (MM/AA)</label><input id="c-exp" inputmode="numeric" autocomplete="off" placeholder="MM/AA" maxlength="5"></div>
+                      <div class="field"><label for="c-cvc">Code de sécurité (CVC)</label><input id="c-cvc" inputmode="numeric" autocomplete="off" placeholder="123" maxlength="4"></div>
+                    </div>
+                    <p class="hint"><button type="button" class="link-btn" id="fill-test">Remplir avec une carte de test</button> (4242 4242 4242 4242)</p>
+                    <div class="step-actions"><button class="btn btn-lg" type="submit" id="pay-btn">Payer <span id="pay-total"></span> (fictif)</button><button class="btn btn-ghost" type="button" data-back="2">Retour</button></div>
+                  </form>
+                </div>
+
+                <div id="pay-apple" hidden>
+                  <button type="button" class="apple-btn" id="apple-btn">Payer avec Apple Pay (fictif)</button>
+                  <div class="step-actions"><button class="btn btn-ghost" type="button" data-back="2">Retour</button></div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <aside id="co-summary" class="co-summary" aria-label="Récapitulatif de la commande"></aside>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-backdrop" id="apple-sheet" hidden>
+      <div class="modal apple-sheet" role="dialog" aria-modal="true" aria-labelledby="ap-t">
+        <h2 id="ap-t">Apple Pay (simulation)</h2>
+        <p>Paiement fictif – démonstration. Aucune authentification réelle n’est effectuée.</p>
+        <div class="modal-actions"><button type="button" class="btn" id="apple-confirm" data-autofocus>Confirmer (simulation)</button><button type="button" class="btn btn-ghost" id="apple-cancel">Annuler</button></div>
+      </div>
+    </div>
+  </main>
+  <div id="site-footer"></div>
+  <script src="../js/products.js" defer></script>
+  <script src="../js/stores.js" defer></script>
+  <script src="../js/cart.js" defer></script>
+  <script src="../js/components.js" defer></script>
+  <script src="../js/main.js" defer></script>
+  <script src="../js/checkout.js" defer></script>
+</body>
+</html>

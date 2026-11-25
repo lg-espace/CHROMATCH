@@ -1,0 +1,545 @@
+################################################################################
+# PROMPTS D’IMAGES — CHROMATCH (53 images)
+# À donner à ChatGPT (génération d’images). Fichier généré par outils/generer-prompts.js
+################################################################################
+#
+# CONSEILS D’UTILISATION
+# 1. Ouvrez une NOUVELLE conversation par lot (par exemple une conversation par gamme : Casual, Olympus,
+#    Corporate, Spartiate, Chromini). Cela garde le style homogène.
+# 2. Au début de chaque lot, joignez logo1.png (et/ou logo2.png), surtout pour les T-SHIRTS : ChatGPT doit
+#    voir le vrai logo pour le reproduire fidèlement (un « C » noir entouré de rayons arrondis multicolores).
+# 3. Copiez-collez UN prompt à la fois (de « PROMPT : » jusqu’au prochain « # NOM DU FICHIER »). Chaque
+#    prompt contient déjà le bloc de style commun ; vous pouvez aussi le coller seul au début de la conversation.
+# 4. Après la 1re image, ajoutez pour les suivantes : « Même style, même fond, même éclairage, même cadrage
+#    que l’image précédente ». Régénérez si le fond, l’angle, la taille ou la couleur ne sont pas homogènes.
+# 5. ChatGPT ne sait pas nommer les fichiers : RENOMMEZ chaque image avec le NOM EXACT indiqué dans la ligne
+#    « # NOM DU FICHIER », au format PNG, puis placez-la dans le dossier images/products/ du site.
+#    (S’il vous donne du .webp ou du .jpg, convertissez en .png ou renommez soigneusement l’extension.)
+# 6. Le site change la couleur d’affichage par filtre CSS à partir de la couleur de base de chaque image :
+#    respectez donc bien la couleur demandée (teinte vive et saturée), c’est elle qui sert de référence.
+# 7. Tant qu’une image est absente, le site affiche automatiquement un placeholder propre.
+#
+# BLOC DE STYLE COMMUN (déjà inclus dans chaque prompt ci-dessous) :
+# STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou
+# accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts,
+# toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat
+# (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1
+# (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc
+# cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et
+# légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu
+# visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits,
+# aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+#
+#
+################################################################################
+
+################################################################################
+# GAMME CASUAL — Le style de tous les jours
+################################################################################
+
+# NOM DU FICHIER : tshirt-casual-homme-01.png
+# RAPPEL : joignez logo1.png ou logo2.png dans ChatGPT pour qu’il reproduise fidèlement le logo sur la poitrine (côté cœur).
+# (T-shirt Chroma Classic — T-shirt homme, gamme Casual)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : T-shirt « T-shirt Chroma Classic » de la gamme Casual (homme). DESCRIPTION : T-shirt à col rond côtelé et manches courtes, coupe droite (regular), jersey de coton épais, coutures de renfort visibles aux épaules, ourlet net. MATIÈRE : 95 % coton biologique épais (220 g/m²), 5 % élasthanne (aspect tissu réaliste). Ambiance décontractée et urbaine, finitions soignées.
+COULEUR AFFICHÉE : orange sanguin (#FF6F16), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+LOGO DE LA MARQUE à reproduire fidèlement d’après l’image jointe : le logo Chromatch est petit, net et placé à hauteur du cœur, côté gauche de la poitrine du porteur (donc à DROITE sur l’image vue de face), comme sur un polo de marque, taille d’environ 5 cm. Il se compose d’un « C » noir entouré de rayons arrondis multicolores (rouge, orange, jaune, vert, bleu clair, bleu foncé, violet, rose). Aucun autre texte ni motif sur le vêtement.
+
+# NOM DU FICHIER : tshirt-casual-femme-01.png
+# RAPPEL : joignez logo1.png ou logo2.png dans ChatGPT pour qu’il reproduise fidèlement le logo sur la poitrine (côté cœur).
+# (T-shirt Chroma Fit — T-shirt femme, gamme Casual)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : T-shirt « T-shirt Chroma Fit » de la gamme Casual (femme). DESCRIPTION : T-shirt ajusté à col rond légèrement dégagé, manches courtes, coupe près du corps, longueur à la taille, ourlet net. MATIÈRE : 95 % coton biologique épais (220 g/m²), 5 % élasthanne (aspect tissu réaliste). Ambiance décontractée et urbaine, finitions soignées.
+COULEUR AFFICHÉE : rose marshmallow (#EB7BBF), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+LOGO DE LA MARQUE à reproduire fidèlement d’après l’image jointe : le logo Chromatch est petit, net et placé à hauteur du cœur, côté gauche de la poitrine du porteur (donc à DROITE sur l’image vue de face), comme sur un polo de marque, taille d’environ 5 cm. Il se compose d’un « C » noir entouré de rayons arrondis multicolores (rouge, orange, jaune, vert, bleu clair, bleu foncé, violet, rose). Aucun autre texte ni motif sur le vêtement.
+
+# NOM DU FICHIER : tshirt-casual-unisexe-01.png
+# RAPPEL : joignez logo1.png ou logo2.png dans ChatGPT pour qu’il reproduise fidèlement le logo sur la poitrine (côté cœur).
+# (T-shirt Oversize Prisme — T-shirt unisexe, gamme Casual)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : T-shirt « T-shirt Oversize Prisme » de la gamme Casual (unisexe). DESCRIPTION : T-shirt oversize aux épaules tombantes, col rond côtelé épais, manches mi-longues larges, ourlet droit. MATIÈRE : 95 % coton biologique épais (220 g/m²), 5 % élasthanne (aspect tissu réaliste). Ambiance décontractée et urbaine, finitions soignées.
+COULEUR AFFICHÉE : bleu ciel (#38B5EB), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+LOGO DE LA MARQUE à reproduire fidèlement d’après l’image jointe : le logo Chromatch est petit, net et placé à hauteur du cœur, côté gauche de la poitrine du porteur (donc à DROITE sur l’image vue de face), comme sur un polo de marque, taille d’environ 5 cm. Il se compose d’un « C » noir entouré de rayons arrondis multicolores (rouge, orange, jaune, vert, bleu clair, bleu foncé, violet, rose). Aucun autre texte ni motif sur le vêtement.
+
+# NOM DU FICHIER : tshirt-casual-femme-02.png
+# RAPPEL : joignez logo1.png ou logo2.png dans ChatGPT pour qu’il reproduise fidèlement le logo sur la poitrine (côté cœur).
+# (T-shirt Col V Aurore — T-shirt femme, gamme Casual)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : T-shirt « T-shirt Col V Aurore » de la gamme Casual (femme). DESCRIPTION : T-shirt à col V, manches courtes, coupe fluide, bas légèrement arrondi. MATIÈRE : 95 % coton biologique épais (220 g/m²), 5 % élasthanne (aspect tissu réaliste). Ambiance décontractée et urbaine, finitions soignées.
+COULEUR AFFICHÉE : jaune maïs (#FFE91F), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+LOGO DE LA MARQUE à reproduire fidèlement d’après l’image jointe : le logo Chromatch est petit, net et placé à hauteur du cœur, côté gauche de la poitrine du porteur (donc à DROITE sur l’image vue de face), comme sur un polo de marque, taille d’environ 5 cm. Il se compose d’un « C » noir entouré de rayons arrondis multicolores (rouge, orange, jaune, vert, bleu clair, bleu foncé, violet, rose). Aucun autre texte ni motif sur le vêtement.
+
+# NOM DU FICHIER : pantalon-casual-homme-01.png
+# (Chino Horizon — Pantalon homme, gamme Casual)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Pantalon « Chino Horizon » de la gamme Casual (homme). DESCRIPTION : Pantalon chino coupe droite, ceinture à passants, poches italiennes, braguette zippée, coutures apparentes. MATIÈRE : 97 % coton biologique sergé, 3 % élasthanne (aspect tissu réaliste). Ambiance décontractée et urbaine, finitions soignées.
+COULEUR AFFICHÉE : bleu de mer (#1A04A4), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+Aucun logo ni texte visible sur le produit.
+
+# NOM DU FICHIER : pantalon-casual-femme-01.png
+# (Pantalon Mirage Taille Haute — Pantalon femme, gamme Casual)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Pantalon « Pantalon Mirage Taille Haute » de la gamme Casual (femme). DESCRIPTION : Pantalon taille haute à jambe droite fluide, pinces devant, fermeture latérale discrète, ceinture large. MATIÈRE : 97 % coton biologique sergé, 3 % élasthanne (aspect tissu réaliste). Ambiance décontractée et urbaine, finitions soignées.
+COULEUR AFFICHÉE : violet lumineux (#5E17EB), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+Aucun logo ni texte visible sur le produit.
+
+# NOM DU FICHIER : pantalon-casual-unisexe-01.png
+# (Cargo Urbain — Pantalon unisexe, gamme Casual)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Pantalon « Cargo Urbain » de la gamme Casual (unisexe). DESCRIPTION : Pantalon cargo coupe droite, deux grandes poches latérales à rabat, cordon de serrage aux chevilles. MATIÈRE : 97 % coton biologique sergé, 3 % élasthanne (aspect tissu réaliste). Ambiance décontractée et urbaine, finitions soignées.
+COULEUR AFFICHÉE : vert clair (#4FD443), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+Aucun logo ni texte visible sur le produit.
+
+# NOM DU FICHIER : chaussures-casual-unisexe-01.png
+# (Sneakers Chroma Low — Chaussures unisexe, gamme Casual)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Chaussures « Sneakers Chroma Low » de la gamme Casual (unisexe). DESCRIPTION : Sneakers basses en toile épaisse et cuir végétal, lacets plats, semelle gomme blanche épaisse, vue de trois quarts. MATIÈRE : Tige en toile de coton bio et cuir végétal, semelle en caoutchouc recyclé (aspect tissu réaliste). Ambiance décontractée et urbaine, finitions soignées.
+COULEUR AFFICHÉE : rouge écarlate (#FF3030), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+Aucun logo ni texte visible sur le produit.
+
+# NOM DU FICHIER : chaussures-casual-unisexe-02.png
+# (Baskets Montantes Spectre — Chaussures unisexe, gamme Casual)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Chaussures « Baskets Montantes Spectre » de la gamme Casual (unisexe). DESCRIPTION : Baskets montantes à lacets avec empiècement sur la cheville, semelle cupsole blanche, vue de trois quarts. MATIÈRE : Tige en toile de coton bio et cuir végétal, semelle en caoutchouc recyclé (aspect tissu réaliste). Ambiance décontractée et urbaine, finitions soignées.
+COULEUR AFFICHÉE : bleu ciel (#38B5EB), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+Aucun logo ni texte visible sur le produit.
+
+# NOM DU FICHIER : chemise-casual-homme-01.png
+# (Chemise Lin Mistral — Chemise homme, gamme Casual)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Chemise « Chemise Lin Mistral » de la gamme Casual (homme). DESCRIPTION : Chemise à manches longues en lin, col classique, boutons nacrés, poche poitrine, coupe décontractée. MATIÈRE : 100 % coton biologique, tissage serré (aspect tissu réaliste). Ambiance décontractée et urbaine, finitions soignées.
+COULEUR AFFICHÉE : vert clair (#4FD443), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+Aucun logo ni texte visible sur le produit.
+
+# NOM DU FICHIER : chemise-casual-femme-01.png
+# (Chemise Popeline Zéphyr — Chemise femme, gamme Casual)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Chemise « Chemise Popeline Zéphyr » de la gamme Casual (femme). DESCRIPTION : Chemise en popeline de coton, col classique, boutons discrets, coupe légèrement oversize, manches longues. MATIÈRE : 100 % coton biologique, tissage serré (aspect tissu réaliste). Ambiance décontractée et urbaine, finitions soignées.
+COULEUR AFFICHÉE : rose marshmallow (#EB7BBF), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+Aucun logo ni texte visible sur le produit.
+
+# NOM DU FICHIER : veste-casual-unisexe-01.png
+# (Bomber Éclipse — Veste unisexe, gamme Casual)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Veste « Bomber Éclipse » de la gamme Casual (unisexe). DESCRIPTION : Blouson bomber zippé, col et poignets côtelés, deux poches latérales zippées, doublure visible au col. MATIÈRE : 98 % coton biologique épais, 2 % élasthanne, doublure recyclée (aspect tissu réaliste). Ambiance décontractée et urbaine, finitions soignées.
+COULEUR AFFICHÉE : violet lumineux (#5E17EB), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+Aucun logo ni texte visible sur le produit.
+
+# NOM DU FICHIER : veste-casual-homme-01.png
+# (Veste Harrington Nuance — Veste homme, gamme Casual)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Veste « Veste Harrington Nuance » de la gamme Casual (homme). DESCRIPTION : Veste légère type Harrington à col montant, fermeture zippée, deux poches plaquées, poignets élastiques. MATIÈRE : 98 % coton biologique épais, 2 % élasthanne, doublure recyclée (aspect tissu réaliste). Ambiance décontractée et urbaine, finitions soignées.
+COULEUR AFFICHÉE : bleu de mer (#1A04A4), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+Aucun logo ni texte visible sur le produit.
+
+# NOM DU FICHIER : veste-casual-femme-01.png
+# (Veste Denim Lumière — Veste femme, gamme Casual)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Veste « Veste Denim Lumière » de la gamme Casual (femme). DESCRIPTION : Veste courte en denim, col chemise, boutons métal, deux poches poitrine, coupe cropped. MATIÈRE : 98 % coton biologique épais, 2 % élasthanne, doublure recyclée (aspect tissu réaliste). Ambiance décontractée et urbaine, finitions soignées.
+COULEUR AFFICHÉE : bleu ciel (#38B5EB), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+Aucun logo ni texte visible sur le produit.
+
+################################################################################
+# GAMME OLYMPUS — Le sport, version caméléon
+################################################################################
+
+# NOM DU FICHIER : tshirt-olympus-homme-01.png
+# RAPPEL : joignez logo1.png ou logo2.png dans ChatGPT pour qu’il reproduise fidèlement le logo sur la poitrine (côté cœur).
+# (T-shirt Olympus Sprint — T-shirt homme, gamme Olympus)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : T-shirt « T-shirt Olympus Sprint » de la gamme Olympus (homme). DESCRIPTION : T-shirt technique de sport à manches courtes, tissu respirant, panneaux d’aération en maille dans le dos, coutures plates. MATIÈRE : Polyester recyclé respirant (88 %) et élasthanne (12 %), séchage rapide (aspect tissu réaliste). Esprit sportif et technique : lignes dynamiques, matières techniques respirantes, coutures plates.
+COULEUR AFFICHÉE : rouge écarlate (#FF3030), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+LOGO DE LA MARQUE à reproduire fidèlement d’après l’image jointe : le logo Chromatch est petit, net et placé à hauteur du cœur, côté gauche de la poitrine du porteur (donc à DROITE sur l’image vue de face), comme sur un polo de marque, taille d’environ 5 cm. Il se compose d’un « C » noir entouré de rayons arrondis multicolores (rouge, orange, jaune, vert, bleu clair, bleu foncé, violet, rose). Aucun autre texte ni motif sur le vêtement.
+
+# NOM DU FICHIER : tshirt-olympus-femme-01.png
+# RAPPEL : joignez logo1.png ou logo2.png dans ChatGPT pour qu’il reproduise fidèlement le logo sur la poitrine (côté cœur).
+# (T-shirt Olympus Pulse — T-shirt femme, gamme Olympus)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : T-shirt « T-shirt Olympus Pulse » de la gamme Olympus (femme). DESCRIPTION : T-shirt de running femme ajusté, dos légèrement plus long, fine bande réfléchissante, manches courtes, coutures plates. MATIÈRE : Polyester recyclé respirant (88 %) et élasthanne (12 %), séchage rapide (aspect tissu réaliste). Esprit sportif et technique : lignes dynamiques, matières techniques respirantes, coutures plates.
+COULEUR AFFICHÉE : violet lumineux (#5E17EB), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+LOGO DE LA MARQUE à reproduire fidèlement d’après l’image jointe : le logo Chromatch est petit, net et placé à hauteur du cœur, côté gauche de la poitrine du porteur (donc à DROITE sur l’image vue de face), comme sur un polo de marque, taille d’environ 5 cm. Il se compose d’un « C » noir entouré de rayons arrondis multicolores (rouge, orange, jaune, vert, bleu clair, bleu foncé, violet, rose). Aucun autre texte ni motif sur le vêtement.
+
+# NOM DU FICHIER : pantalon-olympus-homme-01.png
+# (Jogging Olympus Tempo — Pantalon homme, gamme Olympus)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Pantalon « Jogging Olympus Tempo » de la gamme Olympus (homme). DESCRIPTION : Pantalon de jogging fuselé, taille élastique avec cordon, poches zippées, bas resserré aux chevilles. MATIÈRE : Polyester recyclé respirant (88 %) et élasthanne (12 %), séchage rapide (aspect tissu réaliste). Esprit sportif et technique : lignes dynamiques, matières techniques respirantes, coutures plates.
+COULEUR AFFICHÉE : bleu de mer (#1A04A4), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+Aucun logo ni texte visible sur le produit.
+
+# NOM DU FICHIER : pantalon-olympus-femme-01.png
+# (Legging Olympus Flex — Pantalon femme, gamme Olympus)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Pantalon « Legging Olympus Flex » de la gamme Olympus (femme). DESCRIPTION : Legging de sport taille haute, tissu compressif opaque, ceinture large plate, petite poche discrète. MATIÈRE : Polyester recyclé respirant (88 %) et élasthanne (12 %), séchage rapide (aspect tissu réaliste). Esprit sportif et technique : lignes dynamiques, matières techniques respirantes, coutures plates.
+COULEUR AFFICHÉE : violet lumineux (#5E17EB), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+Aucun logo ni texte visible sur le produit.
+
+# NOM DU FICHIER : pantalon-olympus-unisexe-01.png
+# (Short Olympus Rush — Pantalon unisexe, gamme Olympus)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Pantalon « Short Olympus Rush » de la gamme Olympus (unisexe). DESCRIPTION : Short de sport léger au-dessus du genou, ceinture élastique, côtés légèrement fendus, doublure intégrée. MATIÈRE : Polyester recyclé respirant (88 %) et élasthanne (12 %), séchage rapide (aspect tissu réaliste). Esprit sportif et technique : lignes dynamiques, matières techniques respirantes, coutures plates.
+COULEUR AFFICHÉE : vert clair (#4FD443), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+Aucun logo ni texte visible sur le produit.
+
+# NOM DU FICHIER : chaussures-olympus-unisexe-01.png
+# (Running Olympus Vélocité — Chaussures unisexe, gamme Olympus)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Chaussures « Running Olympus Vélocité » de la gamme Olympus (unisexe). DESCRIPTION : Chaussures de running légères, tige en mesh respirant, semelle intermédiaire épaisse amortissante, vue de trois quarts. MATIÈRE : Tige en toile de coton bio et cuir végétal, semelle en caoutchouc recyclé (aspect tissu réaliste). Esprit sportif et technique : lignes dynamiques, matières techniques respirantes, coutures plates.
+COULEUR AFFICHÉE : jaune maïs (#FFE91F), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+Aucun logo ni texte visible sur le produit.
+
+# NOM DU FICHIER : chaussures-olympus-unisexe-02.png
+# (Training Olympus Titan — Chaussures unisexe, gamme Olympus)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Chaussures « Training Olympus Titan » de la gamme Olympus (unisexe). DESCRIPTION : Chaussures de training stables, tige renforcée, semelle plate crantée, vue de trois quarts. MATIÈRE : Tige en toile de coton bio et cuir végétal, semelle en caoutchouc recyclé (aspect tissu réaliste). Esprit sportif et technique : lignes dynamiques, matières techniques respirantes, coutures plates.
+COULEUR AFFICHÉE : orange sanguin (#FF6F16), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+Aucun logo ni texte visible sur le produit.
+
+# NOM DU FICHIER : veste-olympus-unisexe-01.png
+# (Coupe-vent Olympus Aéro — Veste unisexe, gamme Olympus)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Veste « Coupe-vent Olympus Aéro » de la gamme Olympus (unisexe). DESCRIPTION : Veste coupe-vent ultra-légère à capuche, zip intégral, poches zippées, panneau d’aération dans le dos. MATIÈRE : Polyester recyclé respirant (88 %) et élasthanne (12 %), séchage rapide (aspect tissu réaliste). Esprit sportif et technique : lignes dynamiques, matières techniques respirantes, coutures plates.
+COULEUR AFFICHÉE : bleu ciel (#38B5EB), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+Aucun logo ni texte visible sur le produit.
+
+# NOM DU FICHIER : veste-olympus-homme-01.png
+# (Veste Olympus Podium — Veste homme, gamme Olympus)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Veste « Veste Olympus Podium » de la gamme Olympus (homme). DESCRIPTION : Veste de survêtement zippée à col montant, deux fines bandes contrastées sur les manches, poches zippées. MATIÈRE : Polyester recyclé respirant (88 %) et élasthanne (12 %), séchage rapide (aspect tissu réaliste). Esprit sportif et technique : lignes dynamiques, matières techniques respirantes, coutures plates.
+COULEUR AFFICHÉE : rouge écarlate (#FF3030), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+Aucun logo ni texte visible sur le produit.
+
+################################################################################
+# GAMME CORPORATE — Le bureau, en couleurs
+################################################################################
+
+# NOM DU FICHIER : costume-corporate-homme-01.png
+# (Costume Corporate Prestige — Costume homme, gamme Corporate)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Costume « Costume Corporate Prestige » de la gamme Corporate (homme). DESCRIPTION : Costume deux pièces homme : veste droite à un bouton, revers cranté, poches à rabat, pantalon assorti, coupe classique, présenté sur mannequin invisible. MATIÈRE : 65 % laine recyclée, 35 % polyester recyclé, doublure viscose (aspect tissu réaliste). Esprit élégant et professionnel : coupe nette, finitions impeccables, tissu tombant.
+COULEUR AFFICHÉE : bleu de mer (#1A04A4), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+Aucun logo ni texte visible sur le produit.
+
+# NOM DU FICHIER : costume-corporate-femme-01.png
+# (Tailleur Corporate Élégance — Costume femme, gamme Corporate)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Costume « Tailleur Corporate Élégance » de la gamme Corporate (femme). DESCRIPTION : Tailleur femme deux pièces : veste ajustée à un bouton, col tailleur, pantalon droit assorti, présenté sur mannequin invisible. MATIÈRE : 65 % laine recyclée, 35 % polyester recyclé, doublure viscose (aspect tissu réaliste). Esprit élégant et professionnel : coupe nette, finitions impeccables, tissu tombant.
+COULEUR AFFICHÉE : violet lumineux (#5E17EB), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+Aucun logo ni texte visible sur le produit.
+
+# NOM DU FICHIER : costume-corporate-homme-02.png
+# (Costume Corporate Slim Signature — Costume homme, gamme Corporate)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Costume « Costume Corporate Slim Signature » de la gamme Corporate (homme). DESCRIPTION : Costume deux pièces homme coupe slim : veste cintrée à deux boutons, revers cranté, pantalon fuselé assorti, présenté sur mannequin invisible. MATIÈRE : 65 % laine recyclée, 35 % polyester recyclé, doublure viscose (aspect tissu réaliste). Esprit élégant et professionnel : coupe nette, finitions impeccables, tissu tombant.
+COULEUR AFFICHÉE : violet lumineux (#5E17EB), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+Aucun logo ni texte visible sur le produit.
+
+# NOM DU FICHIER : chemise-corporate-homme-01.png
+# (Chemise Business Oxford — Chemise homme, gamme Corporate)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Chemise « Chemise Business Oxford » de la gamme Corporate (homme). DESCRIPTION : Chemise à manches longues en tissu oxford, col boutonné, coupe ajustée, poignets mousquetaire. MATIÈRE : 100 % coton biologique, tissage serré (aspect tissu réaliste). Esprit élégant et professionnel : coupe nette, finitions impeccables, tissu tombant.
+COULEUR AFFICHÉE : bleu ciel (#38B5EB), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+Aucun logo ni texte visible sur le produit.
+
+# NOM DU FICHIER : chemise-corporate-femme-01.png
+# (Chemisier Business Satiné — Chemise femme, gamme Corporate)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Chemise « Chemisier Business Satiné » de la gamme Corporate (femme). DESCRIPTION : Chemisier femme satiné à manches longues, col classique, boutons cachés, coupe fluide. MATIÈRE : 100 % coton biologique, tissage serré (aspect tissu réaliste). Esprit élégant et professionnel : coupe nette, finitions impeccables, tissu tombant.
+COULEUR AFFICHÉE : rose marshmallow (#EB7BBF), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+Aucun logo ni texte visible sur le produit.
+
+# NOM DU FICHIER : pantalon-corporate-homme-01.png
+# (Pantalon de Costume Corporate — Pantalon homme, gamme Corporate)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Pantalon « Pantalon de Costume Corporate » de la gamme Corporate (homme). DESCRIPTION : Pantalon de costume homme à pinces, ceinture à passants, ligne de repassage marquée, ourlet droit. MATIÈRE : 97 % coton biologique sergé, 3 % élasthanne (aspect tissu réaliste). Esprit élégant et professionnel : coupe nette, finitions impeccables, tissu tombant.
+COULEUR AFFICHÉE : bleu de mer (#1A04A4), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+Aucun logo ni texte visible sur le produit.
+
+# NOM DU FICHIER : pantalon-corporate-femme-01.png
+# (Pantalon Cigarette Corporate — Pantalon femme, gamme Corporate)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Pantalon « Pantalon Cigarette Corporate » de la gamme Corporate (femme). DESCRIPTION : Pantalon cigarette femme, taille haute, jambe étroite arrêtée à la cheville, fermeture latérale discrète. MATIÈRE : 97 % coton biologique sergé, 3 % élasthanne (aspect tissu réaliste). Esprit élégant et professionnel : coupe nette, finitions impeccables, tissu tombant.
+COULEUR AFFICHÉE : violet lumineux (#5E17EB), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+Aucun logo ni texte visible sur le produit.
+
+# NOM DU FICHIER : veste-corporate-femme-01.png
+# (Blazer Corporate Signature — Veste femme, gamme Corporate)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Veste « Blazer Corporate Signature » de la gamme Corporate (femme). DESCRIPTION : Blazer femme structuré à un bouton, col tailleur, poches à rabat, épaules légèrement marquées. MATIÈRE : 98 % coton biologique épais, 2 % élasthanne, doublure recyclée (aspect tissu réaliste). Esprit élégant et professionnel : coupe nette, finitions impeccables, tissu tombant.
+COULEUR AFFICHÉE : rouge écarlate (#FF3030), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+Aucun logo ni texte visible sur le produit.
+
+# NOM DU FICHIER : veste-corporate-homme-01.png
+# (Veste de Costume Classique — Veste homme, gamme Corporate)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Veste « Veste de Costume Classique » de la gamme Corporate (homme). DESCRIPTION : Veste de costume homme droite à un bouton, revers cranté, poches à rabat, doublure intérieure. MATIÈRE : 98 % coton biologique épais, 2 % élasthanne, doublure recyclée (aspect tissu réaliste). Esprit élégant et professionnel : coupe nette, finitions impeccables, tissu tombant.
+COULEUR AFFICHÉE : bleu de mer (#1A04A4), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+Aucun logo ni texte visible sur le produit.
+
+# NOM DU FICHIER : cravate-corporate-unisexe-01.png
+# (Cravate Corporate Classique — Cravate unisexe, gamme Corporate)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Cravate « Cravate Corporate Classique » de la gamme Corporate (unisexe). DESCRIPTION : Cravate classique de 8 cm de large, nouée, présentée à plat et légèrement droite, tissu finement texturé. MATIÈRE : 100 % polyester recyclé tissé serré (aspect tissu réaliste). Esprit élégant et professionnel : coupe nette, finitions impeccables, tissu tombant.
+COULEUR AFFICHÉE : rouge écarlate (#FF3030), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+Aucun logo ni texte visible sur le produit.
+
+# NOM DU FICHIER : cravate-corporate-unisexe-02.png
+# (Cravate Corporate Slim — Cravate unisexe, gamme Corporate)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Cravate « Cravate Corporate Slim » de la gamme Corporate (unisexe). DESCRIPTION : Cravate slim de 6 cm de large, nouée, présentée à plat et légèrement droite, tissu finement texturé. MATIÈRE : 100 % polyester recyclé tissé serré (aspect tissu réaliste). Esprit élégant et professionnel : coupe nette, finitions impeccables, tissu tombant.
+COULEUR AFFICHÉE : violet lumineux (#5E17EB), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+Aucun logo ni texte visible sur le produit.
+
+# NOM DU FICHIER : ceinture-corporate-unisexe-01.png
+# (Ceinture Cuir Corporate — Ceinture unisexe, gamme Corporate)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Ceinture « Ceinture Cuir Corporate » de la gamme Corporate (unisexe). DESCRIPTION : Ceinture en cuir lisse, boucle métal argenté rectangulaire, présentée enroulée en spirale. MATIÈRE : Cuir végétal (liège et coton enduit) et boucle en acier recyclé (aspect tissu réaliste). Esprit élégant et professionnel : coupe nette, finitions impeccables, tissu tombant.
+COULEUR AFFICHÉE : orange sanguin (#FF6F16), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+Aucun logo ni texte visible sur le produit.
+
+# NOM DU FICHIER : ceinture-corporate-unisexe-02.png
+# (Ceinture Tressée Corporate — Ceinture unisexe, gamme Corporate)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Ceinture « Ceinture Tressée Corporate » de la gamme Corporate (unisexe). DESCRIPTION : Ceinture tressée élastique avec boucle métal discrète, présentée enroulée en spirale. MATIÈRE : Cuir végétal (liège et coton enduit) et boucle en acier recyclé (aspect tissu réaliste). Esprit élégant et professionnel : coupe nette, finitions impeccables, tissu tombant.
+COULEUR AFFICHÉE : vert clair (#4FD443), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+Aucun logo ni texte visible sur le produit.
+
+# NOM DU FICHIER : chaussures-corporate-homme-01.png
+# (Derbies Corporate — Chaussures homme, gamme Corporate)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Chaussures « Derbies Corporate » de la gamme Corporate (homme). DESCRIPTION : Chaussures derby à lacets en cuir lisse, bout rond, semelle fine, vue de trois quarts. MATIÈRE : Tige en toile de coton bio et cuir végétal, semelle en caoutchouc recyclé (aspect tissu réaliste). Esprit élégant et professionnel : coupe nette, finitions impeccables, tissu tombant.
+COULEUR AFFICHÉE : bleu de mer (#1A04A4), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+Aucun logo ni texte visible sur le produit.
+
+# NOM DU FICHIER : chaussures-corporate-femme-01.png
+# (Escarpins Corporate — Chaussures femme, gamme Corporate)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Chaussures « Escarpins Corporate » de la gamme Corporate (femme). DESCRIPTION : Escarpins femme à talon moyen de 6 cm, bout arrondi, cuir lisse, vue de trois quarts. MATIÈRE : Tige en toile de coton bio et cuir végétal, semelle en caoutchouc recyclé (aspect tissu réaliste). Esprit élégant et professionnel : coupe nette, finitions impeccables, tissu tombant.
+COULEUR AFFICHÉE : rouge écarlate (#FF3030), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+Aucun logo ni texte visible sur le produit.
+
+################################################################################
+# GAMME SPARTIATE — Camouflage adaptatif
+################################################################################
+
+# NOM DU FICHIER : tshirt-spartiate-homme-01.png
+# RAPPEL : joignez logo1.png ou logo2.png dans ChatGPT pour qu’il reproduise fidèlement le logo sur la poitrine (côté cœur).
+# (T-shirt Spartiate Camo — T-shirt homme, gamme Spartiate)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : T-shirt « T-shirt Spartiate Camo » de la gamme Spartiate (homme). DESCRIPTION : T-shirt à col rond et manches courtes, motif camouflage en taches de vert clair, vert moyen et vert foncé, coupe droite. MATIÈRE : Coton-polyamide renforcé (ripstop) (aspect tissu réaliste). Esprit militaire / terrain : matière robuste (ripstop), détails fonctionnels.
+COULEUR AFFICHÉE : motif camouflage dominé par un vert clair vif (#4FD443), avec des taches de vert moyen et de vert foncé ; teintes nettes et saturées.
+LOGO DE LA MARQUE à reproduire fidèlement d’après l’image jointe : le logo Chromatch est petit, net et placé à hauteur du cœur, côté gauche de la poitrine du porteur (donc à DROITE sur l’image vue de face), comme sur un polo de marque, taille d’environ 5 cm. Il se compose d’un « C » noir entouré de rayons arrondis multicolores (rouge, orange, jaune, vert, bleu clair, bleu foncé, violet, rose). Aucun autre texte ni motif sur le vêtement.
+
+# NOM DU FICHIER : pantalon-spartiate-homme-01.png
+# (Treillis Spartiate — Pantalon homme, gamme Spartiate)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Pantalon « Treillis Spartiate » de la gamme Spartiate (homme). DESCRIPTION : Pantalon treillis à motif camouflage, poches cargo à rabat, renforts aux genoux, chevilles ajustables par cordon. MATIÈRE : Coton-polyamide renforcé (ripstop) (aspect tissu réaliste). Esprit militaire / terrain : matière robuste (ripstop), détails fonctionnels.
+COULEUR AFFICHÉE : motif camouflage dominé par un vert clair vif (#4FD443), avec des taches de vert moyen et de vert foncé ; teintes nettes et saturées.
+Aucun logo ni texte visible sur le produit.
+
+# NOM DU FICHIER : veste-spartiate-unisexe-01.png
+# (Veste Field Spartiate — Veste unisexe, gamme Spartiate)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Veste « Veste Field Spartiate » de la gamme Spartiate (unisexe). DESCRIPTION : Veste de terrain à motif camouflage, col montant, quatre poches à rabat, fermeture zip et pressions. MATIÈRE : Coton-polyamide renforcé (ripstop) (aspect tissu réaliste). Esprit militaire / terrain : matière robuste (ripstop), détails fonctionnels.
+COULEUR AFFICHÉE : motif camouflage dominé par un vert clair vif (#4FD443), avec des taches de vert moyen et de vert foncé ; teintes nettes et saturées.
+Aucun logo ni texte visible sur le produit.
+
+# NOM DU FICHIER : veste-spartiate-homme-01.png
+# (Parka Spartiate Hiver — Veste homme, gamme Spartiate)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Veste « Parka Spartiate Hiver » de la gamme Spartiate (homme). DESCRIPTION : Parka longue à capuche, motif camouflage, doublure matelassée, poches à rabat, fermeture zip et pressions. MATIÈRE : Coton-polyamide renforcé (ripstop) (aspect tissu réaliste). Esprit militaire / terrain : matière robuste (ripstop), détails fonctionnels.
+COULEUR AFFICHÉE : motif camouflage dominé par un vert clair vif (#4FD443), avec des taches de vert moyen et de vert foncé ; teintes nettes et saturées.
+Aucun logo ni texte visible sur le produit.
+
+# NOM DU FICHIER : chaussures-spartiate-unisexe-01.png
+# (Rangers Spartiate — Chaussures unisexe, gamme Spartiate)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Chaussures « Rangers Spartiate » de la gamme Spartiate (unisexe). DESCRIPTION : Rangers montantes en toile camouflage et cuir, lacets, semelle crantée épaisse, vue de trois quarts. MATIÈRE : Tige en toile de coton bio et cuir végétal, semelle en caoutchouc recyclé (aspect tissu réaliste). Esprit militaire / terrain : matière robuste (ripstop), détails fonctionnels.
+COULEUR AFFICHÉE : motif camouflage dominé par un vert clair vif (#4FD443), avec des taches de vert moyen et de vert foncé ; teintes nettes et saturées.
+Aucun logo ni texte visible sur le produit.
+
+# NOM DU FICHIER : chemise-spartiate-homme-01.png
+# (Chemise Tactique Spartiate — Chemise homme, gamme Spartiate)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Chemise « Chemise Tactique Spartiate » de la gamme Spartiate (homme). DESCRIPTION : Chemise tactique à manches longues, motif camouflage, poches poitrine à rabat, manches retroussables avec patte. MATIÈRE : Coton-polyamide renforcé (ripstop) (aspect tissu réaliste). Esprit militaire / terrain : matière robuste (ripstop), détails fonctionnels.
+COULEUR AFFICHÉE : motif camouflage dominé par un vert clair vif (#4FD443), avec des taches de vert moyen et de vert foncé ; teintes nettes et saturées.
+Aucun logo ni texte visible sur le produit.
+
+# NOM DU FICHIER : ceinture-spartiate-unisexe-01.png
+# (Ceinturon Tactique Spartiate — Ceinture unisexe, gamme Spartiate)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Ceinture « Ceinturon Tactique Spartiate » de la gamme Spartiate (unisexe). DESCRIPTION : Ceinturon tactique en sangle camouflage avec boucle à dégagement rapide, présenté enroulé. MATIÈRE : Cuir végétal (liège et coton enduit) et boucle en acier recyclé (aspect tissu réaliste). Esprit militaire / terrain : matière robuste (ripstop), détails fonctionnels.
+COULEUR AFFICHÉE : motif camouflage dominé par un vert clair vif (#4FD443), avec des taches de vert moyen et de vert foncé ; teintes nettes et saturées.
+Aucun logo ni texte visible sur le produit.
+
+################################################################################
+# GAMME CHROMINI — Enfants et bébés
+################################################################################
+
+# NOM DU FICHIER : tshirt-chromini-enfant-01.png
+# RAPPEL : joignez logo1.png ou logo2.png dans ChatGPT pour qu’il reproduise fidèlement le logo sur la poitrine (côté cœur).
+# (T-shirt Chromini Arc-en-Ciel — T-shirt enfant, gamme Chromini)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : T-shirt « T-shirt Chromini Arc-en-Ciel » de la gamme Chromini (enfant). DESCRIPTION : T-shirt enfant (taille 6-8 ans) à col rond et manches courtes, coupe droite, jersey de coton doux. MATIÈRE : Coton biologique doux certifié, sans substance irritante (aspect tissu réaliste). Vêtement pour enfant ou bébé, taille enfant, matières douces, aspect joyeux mais sobre.
+COULEUR AFFICHÉE : orange sanguin (#FF6F16), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+LOGO DE LA MARQUE à reproduire fidèlement d’après l’image jointe : le logo Chromatch est petit, net et placé à hauteur du cœur, côté gauche de la poitrine du porteur (donc à DROITE sur l’image vue de face), comme sur un polo de marque, taille d’environ 5 cm. Il se compose d’un « C » noir entouré de rayons arrondis multicolores (rouge, orange, jaune, vert, bleu clair, bleu foncé, violet, rose). Aucun autre texte ni motif sur le vêtement.
+
+# NOM DU FICHIER : tshirt-chromini-enfant-02.png
+# RAPPEL : joignez logo1.png ou logo2.png dans ChatGPT pour qu’il reproduise fidèlement le logo sur la poitrine (côté cœur).
+# (T-shirt Chromini Explorateur — T-shirt enfant, gamme Chromini)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : T-shirt « T-shirt Chromini Explorateur » de la gamme Chromini (enfant). DESCRIPTION : T-shirt enfant (taille 6-8 ans) à col rond et manches courtes, coupe confortable, coutures plates. MATIÈRE : Coton biologique doux certifié, sans substance irritante (aspect tissu réaliste). Vêtement pour enfant ou bébé, taille enfant, matières douces, aspect joyeux mais sobre.
+COULEUR AFFICHÉE : bleu ciel (#38B5EB), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+LOGO DE LA MARQUE à reproduire fidèlement d’après l’image jointe : le logo Chromatch est petit, net et placé à hauteur du cœur, côté gauche de la poitrine du porteur (donc à DROITE sur l’image vue de face), comme sur un polo de marque, taille d’environ 5 cm. Il se compose d’un « C » noir entouré de rayons arrondis multicolores (rouge, orange, jaune, vert, bleu clair, bleu foncé, violet, rose). Aucun autre texte ni motif sur le vêtement.
+
+# NOM DU FICHIER : tshirt-chromini-enfant-03.png
+# RAPPEL : joignez logo1.png ou logo2.png dans ChatGPT pour qu’il reproduise fidèlement le logo sur la poitrine (côté cœur).
+# (Body Bébé Chromini — T-shirt enfant, gamme Chromini)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : T-shirt « Body Bébé Chromini » de la gamme Chromini (enfant). DESCRIPTION : Body de bébé à manches courtes, col américain croisé, boutons-pression entre les jambes, coton très doux. MATIÈRE : Coton biologique doux certifié, sans substance irritante (aspect tissu réaliste). Vêtement pour enfant ou bébé, taille enfant, matières douces, aspect joyeux mais sobre.
+COULEUR AFFICHÉE : jaune maïs (#FFE91F), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+LOGO DE LA MARQUE à reproduire fidèlement d’après l’image jointe : le logo Chromatch est petit, net et placé à hauteur du cœur, côté gauche de la poitrine du porteur (donc à DROITE sur l’image vue de face), comme sur un polo de marque, taille d’environ 5 cm. Il se compose d’un « C » noir entouré de rayons arrondis multicolores (rouge, orange, jaune, vert, bleu clair, bleu foncé, violet, rose). Aucun autre texte ni motif sur le vêtement.
+
+# NOM DU FICHIER : pantalon-chromini-enfant-01.png
+# (Jogger Chromini — Pantalon enfant, gamme Chromini)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Pantalon « Jogger Chromini » de la gamme Chromini (enfant). DESCRIPTION : Pantalon jogger enfant (taille 6-8 ans) à taille élastique et bas resserré, poches latérales. MATIÈRE : Coton biologique doux certifié, sans substance irritante (aspect tissu réaliste). Vêtement pour enfant ou bébé, taille enfant, matières douces, aspect joyeux mais sobre.
+COULEUR AFFICHÉE : vert clair (#4FD443), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+Aucun logo ni texte visible sur le produit.
+
+# NOM DU FICHIER : pantalon-chromini-enfant-02.png
+# (Short Chromini Été — Pantalon enfant, gamme Chromini)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Pantalon « Short Chromini Été » de la gamme Chromini (enfant). DESCRIPTION : Short enfant (taille 6-8 ans) léger à ceinture élastique, poches latérales, au-dessus du genou. MATIÈRE : Coton biologique doux certifié, sans substance irritante (aspect tissu réaliste). Vêtement pour enfant ou bébé, taille enfant, matières douces, aspect joyeux mais sobre.
+COULEUR AFFICHÉE : rose marshmallow (#EB7BBF), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+Aucun logo ni texte visible sur le produit.
+
+# NOM DU FICHIER : chaussures-chromini-enfant-01.png
+# (Baskets Chromini — Chaussures enfant, gamme Chromini)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Chaussures « Baskets Chromini » de la gamme Chromini (enfant). DESCRIPTION : Baskets enfant à scratch, tige en toile, semelle souple antidérapante, vue de trois quarts. MATIÈRE : Tige en toile de coton bio et cuir végétal, semelle en caoutchouc recyclé (aspect tissu réaliste). Vêtement pour enfant ou bébé, taille enfant, matières douces, aspect joyeux mais sobre.
+COULEUR AFFICHÉE : violet lumineux (#5E17EB), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+Aucun logo ni texte visible sur le produit.
+
+# NOM DU FICHIER : veste-chromini-enfant-01.png
+# (Blouson Chromini — Veste enfant, gamme Chromini)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Veste « Blouson Chromini » de la gamme Chromini (enfant). DESCRIPTION : Blouson enfant (taille 6-8 ans) zippé, col côtelé, deux poches latérales, doublure légère. MATIÈRE : Coton biologique doux certifié, sans substance irritante (aspect tissu réaliste). Vêtement pour enfant ou bébé, taille enfant, matières douces, aspect joyeux mais sobre.
+COULEUR AFFICHÉE : rouge écarlate (#FF3030), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+Aucun logo ni texte visible sur le produit.
+
+# NOM DU FICHIER : chemise-chromini-enfant-01.png
+# (Chemise Chromini — Chemise enfant, gamme Chromini)
+PROMPT :
+STYLE COMMUN (à respecter exactement) : photographie e-commerce haut de gamme d’un vêtement ou accessoire, vue de face strictement frontale (exception : chaussures en vue de trois quarts, toujours du même angle), produit présenté sur mannequin invisible « ghost mannequin » ou à plat (aucun corps, aucune tête, aucune main, aucun visage visible), produit centré, cadrage CARRÉ 1:1 (1024 x 1024 px) avec une marge d’environ 10 % autour du produit, fond uni gris très clair / blanc cassé (#F4F4F1), sans dégradé, sans sol ni décor, éclairage studio doux et diffus, venant de face et légèrement du dessus, ombre portée très légère sous le produit, netteté élevée, texture du tissu visible, réalisme photographique, mêmes proportions et même taille apparente pour tous les produits, aucun texte, aucun filigrane, aucune étiquette ni cintre visible, aucun accessoire parasite.
+PRODUIT : Chemise « Chemise Chromini » de la gamme Chromini (enfant). DESCRIPTION : Chemise enfant (taille 6-8 ans) à manches longues, col classique, boutons, coton doux. MATIÈRE : Coton biologique doux certifié, sans substance irritante (aspect tissu réaliste). Vêtement pour enfant ou bébé, taille enfant, matières douces, aspect joyeux mais sobre.
+COULEUR AFFICHÉE : bleu ciel (#38B5EB), une teinte vive, saturée et uniforme sur tout le produit (les éléments neutres comme semelles, boutons ou boucle restent blancs, noirs ou métalliques).
+Aucun logo ni texte visible sur le produit.
+
+################################################################################
+# CHECKLIST DES 53 FICHIERS À OBTENIR (dossier images/products/)
+################################################################################
+#  [ ] tshirt-casual-homme-01.png
+#  [ ] tshirt-casual-femme-01.png
+#  [ ] tshirt-casual-unisexe-01.png
+#  [ ] tshirt-casual-femme-02.png
+#  [ ] pantalon-casual-homme-01.png
+#  [ ] pantalon-casual-femme-01.png
+#  [ ] pantalon-casual-unisexe-01.png
+#  [ ] chaussures-casual-unisexe-01.png
+#  [ ] chaussures-casual-unisexe-02.png
+#  [ ] chemise-casual-homme-01.png
+#  [ ] chemise-casual-femme-01.png
+#  [ ] veste-casual-unisexe-01.png
+#  [ ] veste-casual-homme-01.png
+#  [ ] veste-casual-femme-01.png
+#  [ ] tshirt-olympus-homme-01.png
+#  [ ] tshirt-olympus-femme-01.png
+#  [ ] pantalon-olympus-homme-01.png
+#  [ ] pantalon-olympus-femme-01.png
+#  [ ] pantalon-olympus-unisexe-01.png
+#  [ ] chaussures-olympus-unisexe-01.png
+#  [ ] chaussures-olympus-unisexe-02.png
+#  [ ] veste-olympus-unisexe-01.png
+#  [ ] veste-olympus-homme-01.png
+#  [ ] costume-corporate-homme-01.png
+#  [ ] costume-corporate-femme-01.png
+#  [ ] costume-corporate-homme-02.png
+#  [ ] chemise-corporate-homme-01.png
+#  [ ] chemise-corporate-femme-01.png
+#  [ ] pantalon-corporate-homme-01.png
+#  [ ] pantalon-corporate-femme-01.png
+#  [ ] veste-corporate-femme-01.png
+#  [ ] veste-corporate-homme-01.png
+#  [ ] cravate-corporate-unisexe-01.png
+#  [ ] cravate-corporate-unisexe-02.png
+#  [ ] ceinture-corporate-unisexe-01.png
+#  [ ] ceinture-corporate-unisexe-02.png
+#  [ ] chaussures-corporate-homme-01.png
+#  [ ] chaussures-corporate-femme-01.png
+#  [ ] tshirt-spartiate-homme-01.png
+#  [ ] pantalon-spartiate-homme-01.png
+#  [ ] veste-spartiate-unisexe-01.png
+#  [ ] veste-spartiate-homme-01.png
+#  [ ] chaussures-spartiate-unisexe-01.png
+#  [ ] chemise-spartiate-homme-01.png
+#  [ ] ceinture-spartiate-unisexe-01.png
+#  [ ] tshirt-chromini-enfant-01.png
+#  [ ] tshirt-chromini-enfant-02.png
+#  [ ] tshirt-chromini-enfant-03.png
+#  [ ] pantalon-chromini-enfant-01.png
+#  [ ] pantalon-chromini-enfant-02.png
+#  [ ] chaussures-chromini-enfant-01.png
+#  [ ] veste-chromini-enfant-01.png
+#  [ ] chemise-chromini-enfant-01.png

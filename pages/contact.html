@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Chromatch</title>
+  <meta name="description" content="Contactez Chromatch (formulaire fictif de démonstration).">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:title" content="Contact | Chromatch">
+  <meta property="og:description" content="Contactez Chromatch (formulaire fictif de démonstration).">
+  <link rel="icon" type="image/png" href="../images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body data-root="../" data-page="contact">
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <div id="site-header"></div>
+  <noscript><p class="demo-banner center">Ce site de démonstration nécessite JavaScript (en-tête, panier, catalogue).</p></noscript>
+  <main id="contenu" tabindex="-1">
+
+    <section class="page-head banner">
+      <div class="container">
+        <p class="eyebrow">Contact</p>
+        <h1>Une question ? Écrivez-nous</h1>
+        <p class="lead">Formulaire de démonstration : votre message n’est ni envoyé ni enregistré.</p>
+      </div>
+    </section>
+    <div class="container section-sm split" style="align-items:start">
+      <div>
+        <div id="contact-msg" class="form-banner" role="status"></div>
+        <form id="contact-form" class="form-card" novalidate>
+          <div class="form-grid">
+            <div class="field"><label for="c-name">Nom</label><input id="c-name" autocomplete="off"></div>
+            <div class="field"><label for="c-email">E-mail</label><input id="c-email" type="email" autocomplete="off"></div>
+            <div class="field full"><label for="c-subject">Sujet</label><select id="c-subject"><option value="">Choisir…</option><option>Question sur un produit</option><option>Suivi de commande</option><option>Programme de fidélité</option><option>Partenariat / collaboration</option><option>Autre</option></select></div>
+            <div class="field full"><label for="c-message">Message</label><textarea id="c-message"></textarea></div>
+          </div>
+          <div class="step-actions"><button class="btn btn-lg" type="submit">Envoyer (fictif)</button></div>
+        </form>
+      </div>
+      <div class="card">
+        <h3>Coordonnées (fictives)</h3>
+        <p><strong>Service client</strong><br>01 99 00 10 00<br>Du lundi au vendredi, 9h – 18h</p>
+        <p><strong>E-mail</strong><br>contact@chromatch.example</p>
+        <p>Consultez aussi notre <a href="faq.html">FAQ</a> ou <a href="boutiques.html">trouvez une boutique</a>.</p>
+      </div>
+    </div>
+  </main>
+  <div id="site-footer"></div>
+  <script src="../js/products.js" defer></script>
+  <script src="../js/stores.js" defer></script>
+  <script src="../js/cart.js" defer></script>
+  <script src="../js/components.js" defer></script>
+  <script src="../js/main.js" defer></script>
+  <script src="../js/forms.js" defer></script>
+</body>
+</html>

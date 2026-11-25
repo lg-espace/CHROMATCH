@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    /* Page 404 sur GitHub Pages : on corrige les liens relatifs quel que soit le chemin demandé.
+       Site de projet (https://pseudo.github.io/depot/...) : base = /depot/ ; sinon base = / .
+       Si votre site est à la racine (depot nommé pseudo.github.io), remplacez BASE par '/'. */
+    (function () {
+      var BASE = null;
+      var p = location.pathname.split('/').filter(Boolean);
+      if (BASE === null) BASE = (/\.github\.io$/.test(location.hostname) && p.length) ? '/' + p[0] + '/' : '/';
+      document.write('<base href="' + BASE + '">');
+    })();
+  </script>
+  <title>Page introuvable | Chromatch</title>
+  <meta name="description" content="Cette page n’existe pas. Retournez à l’accueil Chromatch.">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:title" content="Page introuvable | Chromatch">
+  <meta property="og:description" content="Cette page n’existe pas. Retournez à l’accueil Chromatch.">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-root="" data-page="404">
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <div id="site-header"></div>
+  <noscript><p class="demo-banner center">Ce site de démonstration nécessite JavaScript (en-tête, panier, catalogue).</p></noscript>
+  <main id="contenu" tabindex="-1">
+
+    <div class="container section center">
+      <img src="images/logo2-trim.png" alt="Chromatch" width="160" height="135" style="margin:0 auto 1rem">
+      <p class="eyebrow">Erreur 404</p>
+      <h1>Oups, cette page a changé de couleur… et a disparu !</h1>
+      <p class="lead">La page que vous cherchez n’existe pas ou a été déplacée.</p>
+      <div class="hero-cta" style="justify-content:center"><a class="btn btn-lg" href="index.html">Retour à l’accueil</a><a class="btn btn-outline btn-lg" href="pages/boutique.html">Voir la boutique</a></div>
+    </div>
+  </main>
+  <div id="site-footer"></div>
+  <script src="js/products.js" defer></script>
+  <script src="js/stores.js" defer></script>
+  <script src="js/cart.js" defer></script>
+  <script src="js/components.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
