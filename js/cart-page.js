@@ -14,7 +14,7 @@
       '<div class="cl-info">' +
         '<h3><a href="' + CM.url('pages/produit.html?id=' + l.id) + '">' + CM.esc(l.product.name) + '</a></h3>' +
         '<p class="muted">' + D.LINES[l.product.line].label + ' · Couleur : ' + CM.esc(col ? col.label : l.color) + ' · Taille : ' + CM.esc(l.size) + '</p>' +
-        '<p class="stock">' + CM.icon('check', 14) + ' En stock (fictif)</p>' +
+        '<p class="stock">' + CM.icon('check', 14) + ' En stock</p>' +
         '<div class="cl-actions">' +
           (saved
             ? '<button type="button" class="link-btn" data-act="move">Remettre dans le panier</button><button type="button" class="link-btn" data-act="remove-saved">Supprimer</button>'
@@ -66,9 +66,9 @@
           '<form id="promo-form" class="promo-form" novalidate><label for="promo-code">Code promo</label><div class="inline-field"><input id="promo-code" type="text" placeholder="Ex. ' + C.monthInfo().code + '" autocomplete="off" value="' + (t.promo ? CM.esc(t.promo.code) : '') + '"><button class="btn btn-outline" type="submit">Appliquer</button></div>' +
           '<p class="form-msg ' + (t.promo ? 'ok' : '') + '" id="promo-msg" role="status">' + (t.promo ? CM.esc('Code appliqué : ' + t.promo.label) : '') + '</p>' +
           (t.promo ? '<button type="button" class="link-btn" id="promo-remove">Retirer le code</button>' : '') +
-          '<p class="hint">Code du mois (fictif) : <button type="button" class="code-chip" data-copy="' + C.monthInfo().code + '">' + C.monthInfo().code + '</button></p></form>' +
+          '<p class="hint">Code du mois : <button type="button" class="code-chip" data-copy="' + C.monthInfo().code + '">' + C.monthInfo().code + '</button></p></form>' +
           '<a class="btn btn-lg btn-block" href="' + CM.url('pages/commande.html') + '">Passer la commande</a>' +
-          '<p class="hint center">' + CM.icon('lock', 14) + ' Paiement fictif — démonstration</p>' +
+          '<p class="hint center">' + CM.icon('lock', 14) + ' Paiement sécurisé</p>' +
         '</aside></div>';
     }
     if (saved.length) {

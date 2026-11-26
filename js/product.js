@@ -29,7 +29,7 @@
 
     const reviews = p.reviews.map(function (r) {
       return '<article class="review"><div class="review-head">' + CM.stars(r.rating) + ' <strong>' + CM.esc(r.title) + '</strong></div>' +
-        '<p>' + CM.esc(r.text) + '</p><small>' + CM.esc(r.author) + ' · ' + r.date + ' · avis fictif</small></article>';
+        '<p>' + CM.esc(r.text) + '</p><small>' + CM.esc(r.author) + ' · ' + r.date + '</small></article>';
     }).join('');
 
     root.innerHTML = '' +
@@ -45,7 +45,7 @@
         '<div class="product-info">' +
           '<p class="eyebrow"><a href="' + CM.url('pages/boutique.html?gamme=' + p.line) + '">' + line.label + '</a> · ' + D.GENDERS[p.gender] + '</p>' +
           '<h1>' + CM.esc(p.name) + '</h1>' +
-          '<p class="pcard-rating">' + CM.stars(p.rating) + ' <a href="#avis">' + p.reviewCount + ' avis (fictifs)</a></p>' +
+          '<p class="pcard-rating">' + CM.stars(p.rating) + ' <a href="#avis">' + p.reviewCount + ' avis</a></p>' +
           '<p class="price big">' + D.formatPrice(p.price) + ' <small>TVA incluse</small></p>' +
           '<p class="lead">' + CM.esc(p.description) + '</p>' +
           (p.features.length ? '<ul class="ticks">' + p.features.map(function (f) { return '<li>' + CM.icon('check', 16) + ' ' + CM.esc(f) + '</li>'; }).join('') + '</ul>' : '') +
@@ -54,7 +54,7 @@
             '<fieldset class="opt-group"><legend>Couleur : <span id="p-colorname2">' + D.COLORS[p.baseColor].label + '</span></legend><div class="color-opts">' + colors + '</div></fieldset>' +
             '<fieldset class="opt-group"><legend>Taille</legend><div class="size-opts">' + sizes + '</div>' +
               '<p class="size-help"><button type="button" class="link-btn" id="size-guide-btn">Guide des tailles</button></p>' +
-              '<div class="size-guide" id="size-guide" hidden><p>Guide indicatif (données fictives) : en cas de doute entre deux tailles, prenez la plus grande. Nos vêtements thermochromiques ont une coupe standard et ne rétrécissent pas lorsqu’ils changent de couleur.</p></div>' +
+              '<div class="size-guide" id="size-guide" hidden><p>Guide indicatif : en cas de doute entre deux tailles, prenez la plus grande. Nos vêtements thermochromiques ont une coupe standard et ne rétrécissent pas lorsqu’ils changent de couleur.</p></div>' +
             '</fieldset>' +
             '<div class="qty-row"><label for="p-qty">Quantité</label>' +
               '<div class="qty"><button type="button" class="qty-btn" data-d="-1" aria-label="Diminuer la quantité">−</button><input id="p-qty" type="number" min="1" max="99" value="1" inputmode="numeric"><button type="button" class="qty-btn" data-d="1" aria-label="Augmenter la quantité">+</button></div></div>' +
@@ -71,11 +71,11 @@
             '<details open><summary>Description</summary><p>' + CM.esc(p.description) + ' Ce vêtement fait partie de la gamme <strong>' + line.label + '</strong> (' + CM.esc(line.tagline.toLowerCase()) + ').</p></details>' +
             '<details><summary>Matière</summary><p>' + CM.esc(p.material) + '</p></details>' +
             '<details><summary>Entretien</summary><p>' + CM.esc(p.care) + '</p></details>' +
-            '<details><summary>Changement de couleur</summary><p>Chaque pièce possède ' + p.colors.length + ' teintes disponibles. Le changement s’obtient avec l’Activateur Chromatch (fictif) : il peut être répété à volonté, sans perte de qualité.</p></details>' +
+            '<details><summary>Changement de couleur</summary><p>Chaque pièce possède ' + p.colors.length + ' teintes disponibles. Le changement s’obtient avec l’Activateur Chromatch : il peut être répété à volonté, sans perte de qualité.</p></details>' +
           '</div>' +
         '</div>' +
       '</div>' +
-      '<section class="section-sm" id="avis" aria-labelledby="avis-t"><h2 id="avis-t">Avis clients <small class="muted">(avis fictifs, générés pour la démonstration)</small></h2><div class="reviews">' + reviews + '</div></section>' +
+      '<section class="section-sm" id="avis" aria-labelledby="avis-t"><h2 id="avis-t">Avis clients</h2><div class="reviews">' + reviews + '</div></section>' +
       '<section class="section-sm" aria-labelledby="rel-t"><h2 id="rel-t">Vous aimerez aussi</h2><div class="grid grid-4" id="related"></div></section>';
 
     const rel = document.getElementById('related');

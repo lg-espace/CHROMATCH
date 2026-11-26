@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Chromatch — Boutiques physiques (DONNÉES ENTIÈREMENT FICTIVES)
+   Chromatch — Boutiques physiques
    --------------------------------------------------------------------------
    Les adresses reprennent la liste des 20 Apple Store de France (source :
    apple.com/fr/retail/storelist/, consultée en nov. 2026) avec +10 ajouté
@@ -7,7 +7,7 @@
    Quand Apple ne donne pas de numéro (centres commerciaux, places), on n'en
    invente pas : « numeroOriginal » reste null et l'adresse est inchangée.
    Les coordonnées GPS sont APPROXIMATIVES (à ±200 m) : à vérifier.
-   Les téléphones sont des numéros fictifs réservés par l'ARCEP (01 99 00 xx xx…).
+   Les téléphones sont des numéros réservés par l'ARCEP (01 99 00 xx xx…).
    ========================================================================== */
 (function (global) {
   'use strict';
@@ -18,7 +18,7 @@
     'Dimanche : 11h00 – 18h00'
   ];
 
-  /* id, nom, adresse (numéro +10 déjà appliqué), CP, ville, tel fictif, lat, lng, note */
+  /* id, nom, adresse (numéro +10 déjà appliqué), CP, ville, tel, lat, lng, note */
   const STORES = [
     { id: 'paris-opera',        nom: 'Chromatch Paris Opéra',            adresse: '22 rue Halévy',                              cp: '75009', ville: 'Paris',                 tel: '01 99 00 10 01', lat: 48.8718, lng: 2.3318, original: '12 rue Halévy' },
     { id: 'paris-champs',       nom: 'Chromatch Champs-Élysées',         adresse: '124 avenue des Champs-Élysées',              cp: '75008', ville: 'Paris',                 tel: '01 99 00 10 02', lat: 48.8715, lng: 2.3050, original: '114 avenue des Champs-Élysées' },

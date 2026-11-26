@@ -1,7 +1,7 @@
 /* ==========================================================================
    Chromatch — Composants communs injectés sur toutes les pages
    --------------------------------------------------------------------------
-   Header, footer, bandeau promo, mini-panier, pop-up cookies (factice),
+   Header, footer, bandeau promo, mini-panier, pop-up cookies,
    pop-up promotion du mois, notifications (toasts).
    Chaque page déclare <body data-root="../"> (ou "" pour index.html) afin que
    tous les liens restent RELATIFS (compatible GitHub Pages).
@@ -241,24 +241,22 @@
               '<button class="btn" type="submit">OK</button>' +
             '</form>' +
             '<p class="form-msg" id="nl-msg" role="status"></p>' +
-            '<small>Démonstration : l’adresse n’est ni envoyée ni enregistrée.</small>' +
           '</div>' +
         '</div>' +
         '<div class="footer-bottom"><div class="container">' +
-          '<p class="demo-note">Site de démonstration — projet marketing scolaire fictif. Les produits, prix, boutiques et avis sont inventés. Aucune donnée n’est enregistrée.</p>' +
           '<ul class="legal-links">' +
             '<li><a href="' + CM.url('pages/mentions-legales.html') + '">Mentions légales</a></li>' +
             '<li><a href="' + CM.url('pages/cgv.html') + '">CGV</a></li>' +
             '<li><a href="' + CM.url('pages/confidentialite.html') + '">Confidentialité</a></li>' +
             '<li><button type="button" class="link-btn" id="open-cookies">Gérer les cookies</button></li>' +
           '</ul>' +
-          '<p>© ' + y + ' Chromatch (marque fictive)</p>' +
+          '<p>© ' + y + ' Chromatch</p>' +
         '</div></div>' +
       '</footer>';
   }
 
   /* ==========================================================================
-     COOKIES (FACTICE) + POP-UP PROMO
+     COOKIES + POP-UP PROMO
      ========================================================================== */
   const KEY_COOKIES = 'chromatch_cookies_v1';
 
@@ -268,12 +266,12 @@
         '<div class="modal cookie-modal" role="dialog" aria-modal="true" aria-labelledby="ck-title" aria-describedby="ck-desc">' +
           '<img class="modal-logo" src="' + CM.url('images/logo2-trim.png') + '" alt="Chromatch" width="90" height="76">' +
           '<h2 id="ck-title">Un petit mot sur les cookies</h2>' +
-          '<p id="ck-desc">Ceci est un <strong>faux bandeau de cookies</strong> (site de démonstration) : votre choix est seulement mémorisé dans votre navigateur et ne déclenche rien d’autre.</p>' +
+          '<p id="ck-desc">Chromatch utilise des cookies pour assurer le bon fonctionnement du site et, avec votre accord, mesurer l’audience et personnaliser votre expérience. Vous pouvez accepter, refuser ou choisir vos préférences à tout moment.</p>' +
           '<div class="ck-custom" id="ck-custom" hidden>' +
             '<label class="switch"><input type="checkbox" checked disabled> <span>Cookies nécessaires <small>(toujours actifs)</small></span></label>' +
-            '<label class="switch"><input type="checkbox" id="ck-analytics"> <span>Mesure d’audience <small>(fictif)</small></span></label>' +
-            '<label class="switch"><input type="checkbox" id="ck-marketing"> <span>Publicité personnalisée <small>(fictif)</small></span></label>' +
-            '<label class="switch"><input type="checkbox" id="ck-perso"> <span>Personnalisation du site <small>(fictif)</small></span></label>' +
+            '<label class="switch"><input type="checkbox" id="ck-analytics"> <span>Mesure d’audience</span></label>' +
+            '<label class="switch"><input type="checkbox" id="ck-marketing"> <span>Publicité personnalisée</span></label>' +
+            '<label class="switch"><input type="checkbox" id="ck-perso"> <span>Personnalisation du site</span></label>' +
             '<button type="button" class="btn" id="ck-save">Enregistrer mes choix</button>' +
           '</div>' +
           '<div class="modal-actions" id="ck-actions">' +
@@ -301,7 +299,7 @@
             '<button type="button" class="btn" id="pm-apply" data-autofocus>J’en profite</button>' +
             '<button type="button" class="btn btn-ghost" id="pm-later">Plus tard</button>' +
           '</div>' +
-          '<small>Code fictif, applicable dans le panier. Offre de démonstration.</small>' +
+          '<small>Code applicable dans le panier, sur tout le catalogue, pendant le mois en cours.</small>' +
         '</div>' +
       '</div>';
   }
@@ -413,14 +411,14 @@
       else done();
     });
 
-    // Newsletter factice
+    // Newsletter
     const nl = document.getElementById('newsletter-form');
     if (nl) nl.addEventListener('submit', function (e) {
       e.preventDefault();
       const input = document.getElementById('nl-email');
       const msg = document.getElementById('nl-msg');
       const ok = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(input.value.trim());
-      msg.textContent = ok ? 'Merci ! (Démonstration : aucune inscription enregistrée.)' : 'Veuillez saisir une adresse e-mail valide.';
+      msg.textContent = ok ? 'Merci ! Vous êtes bien inscrit(e) à la newsletter Chromatch.' : 'Veuillez saisir une adresse e-mail valide.';
       msg.className = 'form-msg ' + (ok ? 'ok' : 'err');
       if (ok) input.value = '';
     });

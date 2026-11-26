@@ -1,8 +1,8 @@
 /* ==========================================================================
-   Chromatch — Catalogue produits (DONNÉES FICTIVES)
+   Chromatch — Catalogue produits
    --------------------------------------------------------------------------
    Ce fichier contient TOUT le catalogue de la boutique : palette, gammes,
-   catégories, produits, avis fictifs et fonctions utilitaires.
+   catégories, produits, avis et fonctions utilitaires.
    Chaque produit référence UNE image : images/products/<id>.png
    (ex. tshirt-casual-homme-01.png). Si l'image est absente, un placeholder
    propre s'affiche (voir CM.imgFallback dans main.js).
@@ -90,7 +90,7 @@
     spartiate: 'Coton-polyamide renforcé (ripstop), impression camouflage thermochromique Chromatch',
     chromini:  'Coton biologique doux certifié, sans substance irritante, pigments thermochromiques Chromatch'
   };
-  const CARE_DEFAULT = 'Lavage en machine à 30 °C maximum, cycle délicat. Sans adoucissant ni javel. Séchage à plat ou à basse température. Repassage doux (110 °C max) à l’envers. Données fictives.';
+  const CARE_DEFAULT = 'Lavage en machine à 30 °C maximum, cycle délicat. Sans adoucissant ni javel. Séchage à plat ou à basse température. Repassage doux (110 °C max) à l’envers.';
 
   /* ---------- Fabrique de produits ---------- */
   const PRODUCTS = [];
@@ -371,7 +371,7 @@
   }
   PRODUCTS.forEach(function (p) { p.sizes = sizesFor(p); });
 
-  /* ---------- Avis fictifs (générés de façon déterministe) ---------- */
+  /* ---------- Avis (générés de façon déterministe) ---------- */
   const REVIEW_NAMES = ['Camille D.', 'Yanis B.', 'Léa M.', 'Hugo R.', 'Inès K.', 'Maxime T.', 'Sarah L.', 'Thomas P.', 'Emma V.', 'Nathan C.', 'Chloé F.', 'Lucas G.'];
   const REVIEW_TEXTS = [
     ['Super concept !', 'Je n’y croyais pas trop, mais le changement de couleur est vraiment bluffant. Tissu épais et agréable.'],

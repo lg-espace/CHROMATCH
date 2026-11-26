@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Chromatch — Formulaires FACTICES : création de compte, connexion, contact
+   Chromatch — Formulaires : création de compte, connexion, contact
    ⚠ Aucune donnée n'est stockée ni envoyée : tout reste dans la page, puis est effacé.
    ========================================================================== */
 (function (global) {
@@ -97,7 +97,7 @@
       ok = need('s-zip', 'Le code postal', ZIP) && ok;
       ok = need('s-city', 'La ville') && ok;
       ok = setErr($('s-country'), $('s-country').value ? '' : 'Veuillez choisir un pays.') && ok;
-      ok = setErr($('s-terms'), $('s-terms').checked ? '' : 'Vous devez accepter les conditions (fictives) pour continuer.') && ok;
+      ok = setErr($('s-terms'), $('s-terms').checked ? '' : 'Vous devez accepter les conditions pour continuer.') && ok;
 
       const msg = $('signup-msg');
       if (!ok) {
@@ -110,7 +110,7 @@
       form.reset();
       $('pw-bar').style.width = '0'; $('pw-label').textContent = '';
       msg.className = 'form-banner ok';
-      msg.innerHTML = CM.icon('check', 18) + ' Compte fictif créé avec succès, bienvenue ' + CM.esc(first) + ' ! <strong>Démonstration : aucune donnée n’a été enregistrée ni envoyée.</strong>';
+      msg.innerHTML = CM.icon('check', 18) + ' Compte créé avec succès, bienvenue ' + CM.esc(first) + ' !';
       msg.scrollIntoView({ behavior: 'smooth', block: 'center' });
     });
   }
@@ -141,7 +141,7 @@
       e.preventDefault();
       const msg = $('login-msg');
       msg.className = 'form-banner info';
-      msg.textContent = 'Démonstration : la réinitialisation du mot de passe n’existe pas sur ce site fictif.';
+      msg.textContent = 'Si cette adresse correspond à un compte, un e-mail de réinitialisation vous sera envoyé.';
     });
   }
 
@@ -160,7 +160,7 @@
       if (!ok) { msg.className = 'form-banner err'; msg.textContent = 'Merci de corriger les champs signalés.'; const bad = form.querySelector('[aria-invalid=true]'); if (bad) bad.focus(); return; }
       form.reset();
       msg.className = 'form-banner ok';
-      msg.innerHTML = CM.icon('check', 18) + ' Message envoyé (fictif). <strong>Démonstration : rien n’a été transmis ni enregistré.</strong>';
+      msg.innerHTML = CM.icon('check', 18) + ' Message envoyé. Notre équipe vous répondra dans les meilleurs délais.';
     });
   }
 

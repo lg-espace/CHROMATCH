@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Chromatch — Tunnel de commande FICTIF (pages/commande.html)
+   Chromatch — Tunnel de commande (pages/commande.html)
    Étapes : 1) Adresse de livraison  2) Mode de livraison  3) Paiement
    ⚠ Rien n'est stocké ni envoyé : les champs vivent uniquement en mémoire.
      Les données de carte ne sont JAMAIS écrites (ni localStorage, ni sessionStorage).
@@ -126,7 +126,7 @@
     return ok;
   }
 
-  /** Termine la commande : numéro fictif, panier vidé, redirection. Aucune donnée perso/bancaire n'est conservée. */
+  /** Termine la commande : numéro de commande, panier vidé, redirection. Aucune donnée perso/bancaire n'est conservée. */
   function completeOrder() {
     const t = C.totals(S.delivery);
     const number = 'CHR-' + new Date().getFullYear() + '-' + String(Math.floor(100000 + Math.random() * 900000));
@@ -204,7 +204,7 @@
     document.getElementById('fill-test').addEventListener('click', function () {
       num.value = '4242 4242 4242 4242';
       document.getElementById('c-type').textContent = 'Visa';
-      document.getElementById('c-name').value = 'TEST DEMONSTRATION';
+      document.getElementById('c-name').value = 'CLIENT CHROMATCH';
       exp.value = '12/' + String((new Date().getFullYear() + 3) % 100).padStart(2, '0');
       document.getElementById('c-cvc').value = '123';
     });
@@ -213,11 +213,11 @@
       e.preventDefault();
       if (!validateCard()) { const bad = document.querySelector('#card-form [aria-invalid=true]'); if (bad) bad.focus(); return; }
       const btn = document.getElementById('pay-btn');
-      btn.disabled = true; btn.textContent = 'Paiement fictif en cours…';
+      btn.disabled = true; btn.textContent = 'Paiement en cours…';
       setTimeout(completeOrder, 900);
     });
 
-    // Apple Pay factice
+    // Apple Pay
     const sheet = document.getElementById('apple-sheet');
     document.getElementById('apple-btn').addEventListener('click', function () { CM.openModal(sheet); });
     document.getElementById('apple-cancel').addEventListener('click', function () { CM.closeModal(sheet); });

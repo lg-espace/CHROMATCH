@@ -1,7 +1,7 @@
 /* ==========================================================================
    Chromatch — Page « Nos boutiques » (Leaflet + OpenStreetMap + Nominatim)
    - carte globale avec tous les marqueurs
-   - liste des boutiques (adresse, horaires, téléphone fictifs)
+   - liste des boutiques (adresse, horaires, téléphone)
    - géocodage d'une adresse (Nominatim, côté client, avec gestion d'erreurs)
    - boutique la plus proche (distance de Haversine) + carte dédiée + ligne
    - bouton « Me géolocaliser » (API Geolocation du navigateur)
@@ -19,7 +19,7 @@
   function popupHTML(s) {
     return '<div class="map-popup"><strong>' + CM.esc(s.nom) + '</strong><br>' + CM.esc(fullAddress(s)) + '<br>' +
       '<small>' + CM.esc(s.horaires[0]) + '<br>' + CM.esc(s.horaires[1]) + ' · ' + CM.esc(s.horaires[2]) + '</small><br>' +
-      'Tél. (fictif) : ' + CM.esc(s.tel) + '</div>';
+      'Tél. : ' + CM.esc(s.tel) + '</div>';
   }
 
   function markerIcon(cls) {
@@ -55,7 +55,7 @@
         '<h3>' + CM.esc(s.nom) + '</h3>' +
         '<p>' + CM.icon('pin', 16) + ' ' + CM.esc(fullAddress(s)) + '</p>' +
         '<ul class="hours">' + s.horaires.map(function (h) { return '<li>' + CM.esc(h) + '</li>'; }).join('') + '</ul>' +
-        '<p>Tél. (fictif) : <a href="tel:' + s.tel.replace(/\s/g, '') + '">' + CM.esc(s.tel) + '</a></p>' +
+        '<p>Tél. : <a href="tel:' + s.tel.replace(/\s/g, '') + '">' + CM.esc(s.tel) + '</a></p>' +
         '<button type="button" class="btn btn-small btn-outline" data-show="' + s.id + '">Voir sur la carte</button></li>';
     }).join('') || '<li class="muted">Aucune boutique ne correspond à votre recherche.</li>';
   }
@@ -78,7 +78,7 @@
       '<p class="nearest-name"><strong>' + CM.esc(s.nom) + '</strong> — à <strong>' + fmtKm(n.km) + '</strong> à vol d’oiseau</p>' +
       '<p>' + CM.icon('pin', 16) + ' ' + CM.esc(fullAddress(s)) + '</p>' +
       '<p>' + CM.esc(s.horaires[0]) + ' · ' + CM.esc(s.horaires[1]) + ' · ' + CM.esc(s.horaires[2]) + '</p>' +
-      '<p>Tél. (fictif) : ' + CM.esc(s.tel) + ' · <a href="' + link + '" target="_blank" rel="noopener">Itinéraire sur OpenStreetMap</a></p>' +
+      '<p>Tél. : ' + CM.esc(s.tel) + ' · <a href="' + link + '" target="_blank" rel="noopener">Itinéraire sur OpenStreetMap</a></p>' +
       '<p class="muted">Votre position : ' + CM.esc(label) + '</p>' +
       '<h4>Les 3 plus proches</h4><ol class="top3">' + res.ranked.slice(0, 3).map(function (r) { return '<li>' + CM.esc(r.store.nom) + ' — ' + fmtKm(r.km) + '</li>'; }).join('') + '</ol>';
     document.getElementById('map-nearest-wrap').hidden = false;

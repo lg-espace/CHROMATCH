@@ -60,7 +60,7 @@
     return info;
   }
 
-  /** Codes promo fictifs valides. */
+  /** Codes promo valides. */
   function findPromo(rawCode) {
     const code = (rawCode || '').trim().toUpperCase().replace(/\s+/g, '');
     if (!code) return null;
