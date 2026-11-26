@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Commande (paiement fictif) | Chromatch</title>
-  <meta name="description" content="Tunnel de commande fictif Chromatch : adresse, livraison, paiement. Aucune donnée enregistrée.">
+  <title>Commande | Chromatch</title>
+  <meta name="description" content="Finalisez votre commande Chromatch : adresse, livraison, paiement.">
   <meta name="theme-color" content="#ffffff">
-  <meta property="og:title" content="Commande (paiement fictif) | Chromatch">
-  <meta property="og:description" content="Tunnel de commande fictif Chromatch : adresse, livraison, paiement. Aucune donnée enregistrée.">
+  <meta property="og:title" content="Commande | Chromatch">
+  <meta property="og:description" content="Finalisez votre commande Chromatch : adresse, livraison, paiement.">
   <link rel="icon" type="image/png" href="../images/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,13 +17,12 @@
 <body data-root="../" data-page="commande">
   <a class="skip-link" href="#contenu">Aller au contenu</a>
   <div id="site-header"></div>
-  <noscript><p class="demo-banner center">Ce site de démonstration nécessite JavaScript (en-tête, panier, catalogue).</p></noscript>
+  <noscript><p class="demo-banner center">Ce site nécessite JavaScript (en-tête, panier, catalogue).</p></noscript>
   <main id="contenu" tabindex="-1">
 
     <div class="container section-sm" id="checkout-root">
       <div id="checkout-app" hidden>
         <h1>Finaliser ma commande</h1>
-        <p class="demo-pay">Paiement fictif – démonstration : aucune donnée n’est enregistrée ni envoyée, aucune somme n’est débitée.</p>
         <ol class="stepper" aria-label="Étapes de la commande">
           <li id="stepper-1">Livraison</li><li id="stepper-2">Mode d’expédition</li><li id="stepper-3">Paiement</li>
         </ol>
@@ -42,7 +41,6 @@
                   <div class="field"><label for="a-city">Ville</label><input id="a-city" autocomplete="address-level2"></div>
                   <div class="field full"><label for="a-country">Pays</label><select id="a-country"><option>France métropolitaine</option></select></div>
                 </div>
-                <p class="hint">Ces informations ne sont ni enregistrées ni envoyées.</p>
                 <div class="step-actions"><button class="btn btn-lg" type="submit">Continuer vers la livraison</button><a class="btn btn-ghost" href="panier.html">Retour au panier</a></div>
               </form>
             </section>
@@ -52,7 +50,7 @@
               <form id="delivery-form" class="form-card">
                 <label class="radio-card"><input type="radio" name="delivery" value="standard" checked><span class="grow"><strong>Livraison standard</strong>3 à 5 jours ouvrés — offerte dès 100 €</span><strong id="dm-price-standard"></strong></label>
                 <label class="radio-card"><input type="radio" name="delivery" value="express"><span class="grow"><strong>Livraison express</strong>24 à 48 h</span><strong id="dm-price-express"></strong></label>
-                <label class="radio-card"><input type="radio" name="delivery" value="pickup"><span class="grow"><strong>Retrait en boutique Chromatch</strong>Dans l’une de nos boutiques fictives</span><strong id="dm-price-pickup"></strong></label>
+                <label class="radio-card"><input type="radio" name="delivery" value="pickup"><span class="grow"><strong>Retrait en boutique Chromatch</strong>Dans l’une de nos boutiques</span><strong id="dm-price-pickup"></strong></label>
                 <div class="step-actions"><button class="btn btn-lg" type="submit">Continuer vers le paiement</button><button class="btn btn-ghost" type="button" data-back="1">Retour</button></div>
               </form>
             </section>
@@ -60,15 +58,14 @@
             <section id="step-3" aria-labelledby="s3-t" hidden>
               <h2 id="s3-t">3. Paiement</h2>
               <div class="form-card">
-                <p class="demo-pay">Paiement fictif – démonstration. Utilisez le bouton « Remplir avec une carte de test » ou saisissez un numéro respectant l’algorithme de Luhn. Rien n’est conservé, même localement.</p>
                 <fieldset class="pay-tabs" style="border:0;padding:0;margin:0 0 1.2rem">
                   <legend class="sr-only">Mode de paiement</legend>
                   <label class="radio-card" style="margin:0"><input type="radio" name="pay" value="card" checked><span class="grow"><strong>Carte bancaire</strong>Visa, Mastercard, Amex</span></label>
-                  <label class="radio-card" style="margin:0"><input type="radio" name="pay" value="apple"><span class="grow"><strong>Apple Pay</strong>Bouton factice</span></label>
+                  <label class="radio-card" style="margin:0"><input type="radio" name="pay" value="apple"><span class="grow"><strong>Apple Pay</strong>Paiement rapide</span></label>
                 </fieldset>
 
                 <div id="pay-card">
-                  <div class="card-visual" aria-hidden="true"><span class="type" id="c-type"></span>CARTE BANCAIRE<br><small>Démonstration</small></div>
+                  <div class="card-visual" aria-hidden="true"><span class="type" id="c-type"></span>CARTE BANCAIRE</div>
                   <form id="card-form" novalidate autocomplete="off">
                     <div class="form-grid">
                       <div class="field full"><label for="c-number">Numéro de carte</label><input id="c-number" inputmode="numeric" autocomplete="off" placeholder="1234 5678 9012 3456" maxlength="23"></div>
@@ -76,13 +73,12 @@
                       <div class="field"><label for="c-exp">Expiration (MM/AA)</label><input id="c-exp" inputmode="numeric" autocomplete="off" placeholder="MM/AA" maxlength="5"></div>
                       <div class="field"><label for="c-cvc">Code de sécurité (CVC)</label><input id="c-cvc" inputmode="numeric" autocomplete="off" placeholder="123" maxlength="4"></div>
                     </div>
-                    <p class="hint"><button type="button" class="link-btn" id="fill-test">Remplir avec une carte de test</button> (4242 4242 4242 4242)</p>
-                    <div class="step-actions"><button class="btn btn-lg" type="submit" id="pay-btn">Payer <span id="pay-total"></span> (fictif)</button><button class="btn btn-ghost" type="button" data-back="2">Retour</button></div>
+                    <div class="step-actions"><button class="btn btn-lg" type="submit" id="pay-btn">Payer <span id="pay-total"></span></button><button class="btn btn-ghost" type="button" data-back="2">Retour</button></div>
                   </form>
                 </div>
 
                 <div id="pay-apple" hidden>
-                  <button type="button" class="apple-btn" id="apple-btn">Payer avec Apple Pay (fictif)</button>
+                  <button type="button" class="apple-btn" id="apple-btn">Payer avec Apple Pay</button>
                   <div class="step-actions"><button class="btn btn-ghost" type="button" data-back="2">Retour</button></div>
                 </div>
               </div>
@@ -95,9 +91,9 @@
 
     <div class="modal-backdrop" id="apple-sheet" hidden>
       <div class="modal apple-sheet" role="dialog" aria-modal="true" aria-labelledby="ap-t">
-        <h2 id="ap-t">Apple Pay (simulation)</h2>
-        <p>Paiement fictif – démonstration. Aucune authentification réelle n’est effectuée.</p>
-        <div class="modal-actions"><button type="button" class="btn" id="apple-confirm" data-autofocus>Confirmer (simulation)</button><button type="button" class="btn btn-ghost" id="apple-cancel">Annuler</button></div>
+        <h2 id="ap-t">Apple Pay</h2>
+        <p>Validez le paiement pour finaliser votre commande.</p>
+        <div class="modal-actions"><button type="button" class="btn" id="apple-confirm" data-autofocus>Confirmer</button><button type="button" class="btn btn-ghost" id="apple-cancel">Annuler</button></div>
       </div>
     </div>
   </main>
